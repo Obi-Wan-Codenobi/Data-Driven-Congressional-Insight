@@ -1,0 +1,51 @@
+{
+    "pagination": {
+        "count": 2
+    },
+    "request": {
+        "billNumber": "5002",
+        "billType": "s",
+        "billUrl": "https://api.congress.gov/v3/bill/117/s/5002?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": "2022-09-29T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s5002/BILLS-117s5002es.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s5002/BILLS-117s5002es.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s5002/BILLS-117s5002es.xml"
+                }
+            ],
+            "type": "Engrossed in Senate"
+        },
+        {
+            "date": "2022-09-29T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s5002/BILLS-117s5002cps.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s5002/BILLS-117s5002cps.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s5002/BILLS-117s5002cps.xml"
+                }
+            ],
+            "type": "Considered and Passed Senate"
+        }
+    ]
+}

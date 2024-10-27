@@ -1,0 +1,28 @@
+
+
+
+117 HR 5281 IH: Securing Technology Against Climate Impacts Act
+U.S. House of Representatives
+2021-09-17
+text/xml
+EN
+Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.
+
+
+
+I
+117th CONGRESS1st Session
+H. R. 5281
+IN THE HOUSE OF REPRESENTATIVES
+
+September 17, 2021
+Mr. Neguse introduced the following bill; which was referred to the Committee on Armed Services
+
+A BILL
+To amend title 10, United States Code, to require reporting on vulnerabilities due to climate change and cyberattacks in the National Technology and Industrial Base, and for other purposes.
+
+
+1.Short titleThis Act may be cited as the Securing Technology Against Climate Impacts Act. 2.Inclusion of information regarding climate change in reports on National Technology and Industrial BaseSection 2504(3)(B) of title 10, United States Code, is amended—
+(1)by redesignating clauses (i) through (iii) as clauses (ii) through (iv), respectively; and (2)by inserting before clause (ii), as so redesignated, the following new clause (i):
+
+(i)vulnerabilities related to the current and projected impacts of climate change and to cyberattacks or disruptions;.  

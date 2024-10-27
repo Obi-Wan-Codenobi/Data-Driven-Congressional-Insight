@@ -1,0 +1,33 @@
+{
+    "pagination": {
+        "count": 1
+    },
+    "request": {
+        "billNumber": "5262",
+        "billType": "hr",
+        "billUrl": "https://api.congress.gov/v3/bill/117/hr/5262?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": "2021-09-14T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/hr5262/BILLS-117hr5262ih.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/hr5262/BILLS-117hr5262ih.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/hr5262/BILLS-117hr5262ih.xml"
+                }
+            ],
+            "type": "Introduced in House"
+        }
+    ]
+}

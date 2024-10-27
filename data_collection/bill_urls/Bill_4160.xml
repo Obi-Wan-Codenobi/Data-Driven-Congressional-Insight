@@ -1,0 +1,87 @@
+{
+    "pagination": {
+        "count": 4
+    },
+    "request": {
+        "billNumber": "4160",
+        "billType": "s",
+        "billUrl": "https://api.congress.gov/v3/bill/117/s/4160?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": null,
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s4160/BILLS-117s4160enr.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s4160/BILLS-117s4160enr.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s4160/BILLS-117s4160enr.xml"
+                }
+            ],
+            "type": "Enrolled Bill"
+        },
+        {
+            "date": "2022-05-09T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s4160/BILLS-117s4160es.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s4160/BILLS-117s4160es.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s4160/BILLS-117s4160es.xml"
+                }
+            ],
+            "type": "Engrossed in Senate"
+        },
+        {
+            "date": "2022-05-05T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s4160/BILLS-117s4160is.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s4160/BILLS-117s4160is.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s4160/BILLS-117s4160is.xml"
+                }
+            ],
+            "type": "Introduced in Senate"
+        },
+        {
+            "date": "2022-06-17T03:59:59Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/plaws/publ148/PLAW-117publ148.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/plaws/publ148/PLAW-117publ148.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/plaws/publ148/PLAW-117publ148_uslm.xml"
+                }
+            ],
+            "type": "Public Law"
+        }
+    ]
+}

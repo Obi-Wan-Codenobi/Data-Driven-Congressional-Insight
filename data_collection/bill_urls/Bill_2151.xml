@@ -1,0 +1,69 @@
+{
+    "pagination": {
+        "count": 3
+    },
+    "request": {
+        "billNumber": "2151",
+        "billType": "s",
+        "billUrl": "https://api.congress.gov/v3/bill/117/s/2151?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": "2022-08-01T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s2151/BILLS-117s2151es.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s2151/BILLS-117s2151es.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s2151/BILLS-117s2151es.xml"
+                }
+            ],
+            "type": "Engrossed in Senate"
+        },
+        {
+            "date": "2022-06-14T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s2151/BILLS-117s2151rs.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s2151/BILLS-117s2151rs.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s2151/BILLS-117s2151rs.xml"
+                }
+            ],
+            "type": "Reported to Senate"
+        },
+        {
+            "date": "2021-06-21T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s2151/BILLS-117s2151is.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s2151/BILLS-117s2151is.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s2151/BILLS-117s2151is.xml"
+                }
+            ],
+            "type": "Introduced in Senate"
+        }
+    ]
+}

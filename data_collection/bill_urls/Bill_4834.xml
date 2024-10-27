@@ -1,0 +1,87 @@
+{
+    "pagination": {
+        "count": 4
+    },
+    "request": {
+        "billNumber": "4834",
+        "billType": "s",
+        "billUrl": "https://api.congress.gov/v3/bill/117/s/4834?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": null,
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s4834/BILLS-117s4834enr.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s4834/BILLS-117s4834enr.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s4834/BILLS-117s4834enr.xml"
+                }
+            ],
+            "type": "Enrolled Bill"
+        },
+        {
+            "date": "2022-11-15T05:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s4834/BILLS-117s4834es.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s4834/BILLS-117s4834es.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s4834/BILLS-117s4834es.xml"
+                }
+            ],
+            "type": "Engrossed in Senate"
+        },
+        {
+            "date": "2022-09-13T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s4834/BILLS-117s4834is.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s4834/BILLS-117s4834is.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s4834/BILLS-117s4834is.xml"
+                }
+            ],
+            "type": "Introduced in Senate"
+        },
+        {
+            "date": "2022-12-22T04:59:59Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/plaws/publ262/PLAW-117publ262.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/plaws/publ262/PLAW-117publ262.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/plaws/publ262/PLAW-117publ262_uslm.xml"
+                }
+            ],
+            "type": "Public Law"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "pagination": {
+        "count": 1
+    },
+    "request": {
+        "billNumber": "7983",
+        "billType": "hr",
+        "billUrl": "https://api.congress.gov/v3/bill/117/hr/7983?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": "2022-06-08T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/hr7983/BILLS-117hr7983ih.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/hr7983/BILLS-117hr7983ih.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/hr7983/BILLS-117hr7983ih.xml"
+                }
+            ],
+            "type": "Introduced in House"
+        }
+    ]
+}

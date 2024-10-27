@@ -1,0 +1,11 @@
+{
+    "bills": [],
+    "pagination": {
+        "count": 0
+    },
+    "request": {
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}
