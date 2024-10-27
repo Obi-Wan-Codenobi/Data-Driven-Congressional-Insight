@@ -2,7 +2,7 @@ VENV_NAME = DataScrape
 PYTHON = $(VENV_NAME)/bin/python
 PIP = $(VENV_NAME)/bin/pip
 REQUIREMENTS = requirements.txt
-REQUIRED_PYTHON_VERSION = 3.12.6
+REQUIRED_PYTHON_VERSION = 3.12.3
 PACKAGE ?= __ERROR__
 
 # Define target for 'make'
