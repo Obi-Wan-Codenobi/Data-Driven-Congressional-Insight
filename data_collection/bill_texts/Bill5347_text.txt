@@ -1,174 +1,70 @@
+
+
+
 117 HR 5347 IH: Alternatives to Detention Act of 2021
-U
-
-S
-
-House of Representatives
+U.S. House of Representatives
 2021-09-23
 text/xml
 EN
-Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain
+Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.
+
+
 
 I
 117th CONGRESS1st Session
-H
-
-R
-
-5347
+H. R. 5347
 IN THE HOUSE OF REPRESENTATIVES
 
 September 23, 2021
-Mr
-
-Brown (for himself, Ms
-
-Clarke of New York, Mr
-
-Johnson of Georgia, Ms
-
-Norton, and Ms
-
-Schakowsky) introduced the following bill; which was referred to the Committee on the Judiciary
+Mr. Brown (for himself, Ms. Clarke of New York, Mr. Johnson of Georgia, Ms. Norton, and Ms. Schakowsky) introduced the following bill; which was referred to the Committee on the Judiciary
 
 A BILL
-To require the Secretary of Homeland Security to use alternatives to detention for certain vulnerable immigrant populations, and for other purposes
+To require the Secretary of Homeland Security to use alternatives to detention for certain vulnerable immigrant populations, and for other purposes.
 
-1
-
-Short titleThis Act may be cited as the Alternatives to Detention Act of 2021
-
-2
-
-DefinitionsIn this Act: 
+ 
+1.Short titleThis Act may be cited as the Alternatives to Detention Act of 2021. 2.DefinitionsIn this Act: 
 (1)Dependent caregiverThe term dependent caregiver means an individual who lives with, and provides more than ½ of the financial support required by, a family member who is— (A)younger than 18 years of age; or 
-(B)unable to engage in substantial employment due to a physical or mental health condition or disability
-
-(2)Executive departmentsThe term executive departments means the Federal Departments listed under section 101 of title 5, United States Code
-
+(B)unable to engage in substantial employment due to a physical or mental health condition or disability. (2)Executive departmentsThe term executive departments means the Federal Departments listed under section 101 of title 5, United States Code. 
 (3)Family caregiverThe term family caregiver means an individual who lives with, and provides more than ½ of the personal care required by, a family member who is— (A)younger than 18 years of age; or 
-(B)unable to engage in substantial employment due to a physical or mental health condition or disability
-
-(4)Family memberThe term family member, with respect to an individual receiving personal care services or financial support, means an individual who is— 
+(B)unable to engage in substantial employment due to a physical or mental health condition or disability. (4)Family memberThe term family member, with respect to an individual receiving personal care services or financial support, means an individual who is— 
 (A)a parent or legal guardian; (B)a spouse; 
 (C)a child; (D)a step-family member; or 
-(E)an extended family member
-
-(5)Immigration lawsThe term immigration laws has the meaning given such term in section 101(a)(17) of the Immigration and Nationality Act (8 U
-
-S
-
-C
-
-1101(a)(17))
-
-(6)Legal guardianThe term legal guardian means a legal guardian, as defined under State law or under the law of a foreign country
-
-(7)Member of a vulnerable populationThe term member of a vulnerable population means an individual who— 
+(E)an extended family member. (5)Immigration lawsThe term immigration laws has the meaning given such term in section 101(a)(17) of the Immigration and Nationality Act (8 U.S.C. 1101(a)(17)). 
+(6)Legal guardianThe term legal guardian means a legal guardian, as defined under State law or under the law of a foreign country. (7)Member of a vulnerable populationThe term member of a vulnerable population means an individual who— 
 (A)is an asylum seeker or is otherwise seeking lawful status; (B)is a victim of torture or trafficking; 
 (C)has special religious, cultural, or spiritual considerations; (D)is pregnant or nursing; 
 (E)is younger than 21 years of age; (F)is older than 60 years of age; 
 (G)identifies as gay, lesbian, bisexual, transgender, or intersex; (H)is a victim or a witness of a crime; 
 (I)has a mental disorder or physical disability; or (J)is experiencing severe trauma or is a survivor of torture or gender-based violence, as determined by an immigration judge or the Secretary based on information obtained— 
-(i)by the attorney or legal services provider of the individual during the intake process; or (ii)through credible reporting by the individual
-
-(8)ParentThe term parent means a biological or adoptive parent of a child, whose parental rights have not been relinquished or terminated under State law or the law of a foreign country
-
-(9)SecretaryThe term Secretary means the Secretary of Homeland Security
-
-3
-
-Alternatives to detention under the immigration laws 
+(i)by the attorney or legal services provider of the individual during the intake process; or (ii)through credible reporting by the individual. 
+(8)ParentThe term parent means a biological or adoptive parent of a child, whose parental rights have not been relinquished or terminated under State law or the law of a foreign country. (9)SecretaryThe term Secretary means the Secretary of Homeland Security. 
+3.Alternatives to detention under the immigration laws 
 (a)Establishment 
-(1)In generalThe Secretary shall establish programs to provide alternatives to detention under the immigration laws
-
-(2)AvailabilityThe programs required under paragraph (1) shall be available to an alien regardless of whether— 
-(A)a decision on a charge of removability with respect to the alien is pending; or (B)the alien is subject to an order of removal
-
-(3)Continuum of supervisionThe programs required under paragraph (1) shall provide for a continuum of supervision mechanisms and options, including community-based supervision and community support
-
-(4)Contracts with nongovernmental organizationsThe Secretary may contract with one or more nongovernmental organizations to provide services under this subsection and subsection (b)
-
-(b)Restoration of the Family Case Management ProgramNot later than 7 days after the date of the enactment of this Act, the Secretary shall fully restore the U
-
-S
-
-Immigration and Customs Enforcement Family Case Management Program, as constituted on January 21, 2016, which shall— (1)provide community supervision and community support services, including case management services, appearance services, and screening of aliens who have been detained; and 
-(2)be carried out through a contract with a nongovernmental organization that has demonstrated expertise in providing such supervision and support services
-
-(c)Determination of vulnerable population or caregiver status required (1)In generalSubject to paragraphs (2) and (3), not later than 72 hours after taking an individual into custody under the immigration laws, the Secretary, the Commissioner of U
-
-S
-
-Customs and Border Protection, an immigration officer, or an immigration judge shall make an individualized determination with respect to— 
-(A)whether the individual may participate in an alternatives to detention program, including the Family Case Management Program described in subsection (b); and (B)the appropriate level of supervision for such individual
-
+(1)In generalThe Secretary shall establish programs to provide alternatives to detention under the immigration laws. (2)AvailabilityThe programs required under paragraph (1) shall be available to an alien regardless of whether— 
+(A)a decision on a charge of removability with respect to the alien is pending; or (B)the alien is subject to an order of removal. 
+(3)Continuum of supervisionThe programs required under paragraph (1) shall provide for a continuum of supervision mechanisms and options, including community-based supervision and community support. (4)Contracts with nongovernmental organizationsThe Secretary may contract with one or more nongovernmental organizations to provide services under this subsection and subsection (b). 
+(b)Restoration of the Family Case Management ProgramNot later than 7 days after the date of the enactment of this Act, the Secretary shall fully restore the U.S. Immigration and Customs Enforcement Family Case Management Program, as constituted on January 21, 2016, which shall— (1)provide community supervision and community support services, including case management services, appearance services, and screening of aliens who have been detained; and 
+(2)be carried out through a contract with a nongovernmental organization that has demonstrated expertise in providing such supervision and support services. (c)Determination of vulnerable population or caregiver status required (1)In generalSubject to paragraphs (2) and (3), not later than 72 hours after taking an individual into custody under the immigration laws, the Secretary, the Commissioner of U.S. Customs and Border Protection, an immigration officer, or an immigration judge shall make an individualized determination with respect to— 
+(A)whether the individual may participate in an alternatives to detention program, including the Family Case Management Program described in subsection (b); and (B)the appropriate level of supervision for such individual. 
 (2)Presumption for placement in alternatives to detention program 
 (A)In generalThere shall be a presumption for placement in an alternatives to detention program that is a community-based supervision program for any alien who is— (i)taken into the physical custody of the Department of Homeland Security; and 
-(ii)a member of a vulnerable population, a parent of a child who is younger than 18 years of age, a dependent caregiver, or a family caregiver
-
-(B)ExceptionThe presumption described in subparagraph (A) shall not apply if the Secretary, the Commissioner of U
-
-S
-
-Customs and Border Protection, an immigration officer, or an immigration judge specifically determines that the alien is a threat to himself or herself or to the public
-
-(3)ExceptionsAlternatives to detention programs shall not be available to any individual— (A)who is detained pursuant to section 236A of the Immigration and Nationality Act (8 U
-
-S
-
-C
-
-1226a); or 
-(B)for whom release on bond or recognizance is determined to be a sufficient measure to ensure appearances at immigration proceedings and public safety
-
-(d)Coordinator of Alternatives to Detention (1)In generalNot later than 30 days after the date of the enactment of this Act, the Secretary shall— 
-(A)establish within the Department of Homeland Security the position of Coordinator of Alternatives to Detention (referred to in this subsection as the Coordinator), who shall report directly to the Secretary; and (B)appoint the Coordinator
-
-(2)ResourcesThe Secretary shall make available to the Coordinator such personnel, funds, and other resources as may be appropriate to enable the Coordinator to carry out the mission described in paragraph (3)(A)
-
-(3)Mission and duties (A)MissionThe mission of the Coordinator shall be to coordinate, in collaboration with the executive departments, the use of alternatives to detention programs
-
+(ii)a member of a vulnerable population, a parent of a child who is younger than 18 years of age, a dependent caregiver, or a family caregiver. (B)ExceptionThe presumption described in subparagraph (A) shall not apply if the Secretary, the Commissioner of U.S. Customs and Border Protection, an immigration officer, or an immigration judge specifically determines that the alien is a threat to himself or herself or to the public. 
+(3)ExceptionsAlternatives to detention programs shall not be available to any individual— (A)who is detained pursuant to section 236A of the Immigration and Nationality Act (8 U.S.C. 1226a); or 
+(B)for whom release on bond or recognizance is determined to be a sufficient measure to ensure appearances at immigration proceedings and public safety. (d)Coordinator of Alternatives to Detention (1)In generalNot later than 30 days after the date of the enactment of this Act, the Secretary shall— 
+(A)establish within the Department of Homeland Security the position of Coordinator of Alternatives to Detention (referred to in this subsection as the Coordinator), who shall report directly to the Secretary; and (B)appoint the Coordinator. 
+(2)ResourcesThe Secretary shall make available to the Coordinator such personnel, funds, and other resources as may be appropriate to enable the Coordinator to carry out the mission described in paragraph (3)(A). (3)Mission and duties (A)MissionThe mission of the Coordinator shall be to coordinate, in collaboration with the executive departments, the use of alternatives to detention programs. 
 (B)Duties of coordinator 
 (i)In generalThe Coordinator shall— (I)serve as the primary point of contact within the executive branch for Congress, State and local governments, the private sector, and community leaders with respect to the alternatives to detention programs; and 
-(II)in coordination with the executive departments, with respect to Congress, State and local governments, the private sector, and community leaders, manage information flow about, requests for actions relating to, and discussions on, such programs
-
-(ii)Reports required (I)Monthly reportsNot later than 30 days after the date on which the Coordinator is appointed, and every 30 days thereafter, the Coordinator shall submit a report to Congress that includes, for the reporting period— 
+(II)in coordination with the executive departments, with respect to Congress, State and local governments, the private sector, and community leaders, manage information flow about, requests for actions relating to, and discussions on, such programs. (ii)Reports required (I)Monthly reportsNot later than 30 days after the date on which the Coordinator is appointed, and every 30 days thereafter, the Coordinator shall submit a report to Congress that includes, for the reporting period— 
 (aa)the number of individuals detained under the immigration laws— (AA)pending a decision on whether the individual is to be removed; and 
 (BB)after the issuance of a removal order; (bb)an assessment whether any individual described in item (aa) is subject to the special rule under subsection (c)(2)(B); and 
-(cc)the number of individuals participating in an alternatives to detention program established under subsection (a), disaggregated by the level of supervision of such individuals
-
-(II)Annual reportsNot later than 1 year after the date on which the Coordinator is appointed, and annually thereafter, the Coordinator shall submit a report to Congress that includes— 
+(cc)the number of individuals participating in an alternatives to detention program established under subsection (a), disaggregated by the level of supervision of such individuals. (II)Annual reportsNot later than 1 year after the date on which the Coordinator is appointed, and annually thereafter, the Coordinator shall submit a report to Congress that includes— 
 (aa)guidance and requirements for referral and placement decisions in alternatives to detention programs; (bb)information on enrollment in alternatives to detention programs, disaggregated by field office; 
-(cc)information on the length of enrollment in alternatives to detention programs, disaggregated by type of alternative to detention program; and (dd)information on the population enrolled in alternatives to detention programs, disaggregated by type of alternative to detention program and point of apprehension
-
+(cc)information on the length of enrollment in alternatives to detention programs, disaggregated by type of alternative to detention program; and (dd)information on the population enrolled in alternatives to detention programs, disaggregated by type of alternative to detention program and point of apprehension. 
 (C)Duties of executive departmentsThe heads of the executive departments shall— (i)respond promptly to any request by the Coordinator; 
-(ii)consistent with applicable law, provide such information as the Coordinator considers necessary to carry out the mission of the Coordinator; and (iii)otherwise cooperate with the Coordinator to the maximum extent practicable to facilitate the performance of the mission described in subparagraph (A)
-
+(ii)consistent with applicable law, provide such information as the Coordinator considers necessary to carry out the mission of the Coordinator; and (iii)otherwise cooperate with the Coordinator to the maximum extent practicable to facilitate the performance of the mission described in subparagraph (A). 
 (e)GAO study and reportThe Comptroller General of the United States shall— (1)conduct a study on the use and effectiveness of the alternatives to detention programs established pursuant to subsection (a); and 
-(2)not later than 2 years after the date of the enactment of this Act, submit a report to Congress that contains the results of the study conducted pursuant to paragraph (1)
-
-4
-
-Savings provisions (a)Federal lawNothing in this Act may be construed to supersede or modify— 
-(1)the William Wilberforce Trafficking Victims Protection Reauthorization Act of 2008 (8 U
-
-S
-
-C
-
-1232 et seq
-
-); (2)the Stipulated Settlement Agreement filed in the United States District Court for the Central District of California on January 17, 1997 (CV 85–4544–RJK) (commonly known as the Flores Settlement Agreement); 
-(3)the Homeland Security Act of 2002 (6 U
-
-S
-
-C
-
-101 et seq
-
-); or (4)any applicable Federal child welfare law, including the Adoption and Safe Families Act of 1997 (Public Law 105–89)
-
-(b)State lawNothing in this Act may be construed to supersede or modify any applicable State child welfare law
-
+(2)not later than 2 years after the date of the enactment of this Act, submit a report to Congress that contains the results of the study conducted pursuant to paragraph (1). 4.Savings provisions (a)Federal lawNothing in this Act may be construed to supersede or modify— 
+(1)the William Wilberforce Trafficking Victims Protection Reauthorization Act of 2008 (8 U.S.C. 1232 et seq.); (2)the Stipulated Settlement Agreement filed in the United States District Court for the Central District of California on January 17, 1997 (CV 85–4544–RJK) (commonly known as the Flores Settlement Agreement); 
+(3)the Homeland Security Act of 2002 (6 U.S.C. 101 et seq.); or (4)any applicable Federal child welfare law, including the Adoption and Safe Families Act of 1997 (Public Law 105–89). 
+(b)State lawNothing in this Act may be construed to supersede or modify any applicable State child welfare law.  

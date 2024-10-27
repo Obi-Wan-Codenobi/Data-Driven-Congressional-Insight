@@ -6,6 +6,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+#
+# This document encases all functions needed
+#
+
 
 #requests data from the api
 def fetch_data(api_url):
@@ -47,7 +51,6 @@ def extract_xml_urls_from_folder(output_folder):
             bill_urls.append(xml_url)
     return bill_urls
 
-
 #takes a list of .xml text files and their desired folder and stored the content of those links in those files
 def save_bill_texts(xml_urls, output_folder):
     os.makedirs(output_folder, exist_ok=True)
@@ -72,11 +75,10 @@ def save_bill_texts(xml_urls, output_folder):
             file_name = f"Bill{bill_number}_text.txt"
             file_path = os.path.join(output_folder, file_name)
 
-            sections = bill_text.split('.')  
-            formatted_text = '\n\n'.join(section.strip() for section in sections)
+            
 
             with open(file_path, 'w', encoding='utf-8') as file:
-                file.write(formatted_text)
+                file.write(bill_text)
 
             #print(f"Saved: {file_path}")
         except requests.HTTPError as e:
