@@ -1,0 +1,69 @@
+{
+    "pagination": {
+        "count": 3
+    },
+    "request": {
+        "billNumber": "44",
+        "billType": "sconres",
+        "billUrl": "https://api.congress.gov/v3/bill/117/sconres/44?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": null,
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/sconres44/BILLS-117sconres44enr.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/sconres44/BILLS-117sconres44enr.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/sconres44/BILLS-117sconres44enr.xml"
+                }
+            ],
+            "type": "Enrolled Bill"
+        },
+        {
+            "date": "2022-09-12T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/sconres44/BILLS-117sconres44es.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/sconres44/BILLS-117sconres44es.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/sconres44/BILLS-117sconres44es.xml"
+                }
+            ],
+            "type": "Engrossed in Senate"
+        },
+        {
+            "date": "2022-09-12T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/sconres44/BILLS-117sconres44ats.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/sconres44/BILLS-117sconres44ats.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/sconres44/BILLS-117sconres44ats.xml"
+                }
+            ],
+            "type": "Agreed to Senate"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "pagination": {
+        "count": 1
+    },
+    "request": {
+        "billNumber": "4761",
+        "billType": "s",
+        "billUrl": "https://api.congress.gov/v3/bill/117/s/4761?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": "2022-08-03T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s4761/BILLS-117s4761is.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s4761/BILLS-117s4761is.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s4761/BILLS-117s4761is.xml"
+                }
+            ],
+            "type": "Introduced in Senate"
+        }
+    ]
+}

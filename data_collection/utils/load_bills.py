@@ -2,7 +2,6 @@ import requests
 import os
 import json
 import xml.etree.ElementTree as ET
-from utils.initiate_bill_load import initiate_bill_load 
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -86,9 +85,3 @@ def save_bill_texts(xml_urls, output_folder):
             print(f"Error parsing XML from {xml_url}: {e}")
         except Exception as e:
             print(f"An error occurred while processing the XML: {e}")
-
-def main():
-    initiate_bill_load()
-
-if __name__ == "__main__":
-    main()

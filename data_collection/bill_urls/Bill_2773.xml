@@ -1,0 +1,69 @@
+{
+    "pagination": {
+        "count": 3
+    },
+    "request": {
+        "billNumber": "2773",
+        "billType": "s",
+        "billUrl": "https://api.congress.gov/v3/bill/117/s/2773?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": "2022-12-06T05:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s2773/BILLS-117s2773es.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s2773/BILLS-117s2773es.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s2773/BILLS-117s2773es.xml"
+                }
+            ],
+            "type": "Engrossed in Senate"
+        },
+        {
+            "date": "2022-12-01T05:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s2773/BILLS-117s2773rs.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s2773/BILLS-117s2773rs.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s2773/BILLS-117s2773rs.xml"
+                }
+            ],
+            "type": "Reported to Senate"
+        },
+        {
+            "date": "2021-09-21T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s2773/BILLS-117s2773is.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s2773/BILLS-117s2773is.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s2773/BILLS-117s2773is.xml"
+                }
+            ],
+            "type": "Introduced in Senate"
+        }
+    ]
+}

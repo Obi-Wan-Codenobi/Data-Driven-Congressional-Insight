@@ -1,0 +1,69 @@
+{
+    "pagination": {
+        "count": 3
+    },
+    "request": {
+        "billNumber": "3860",
+        "billType": "s",
+        "billUrl": "https://api.congress.gov/v3/bill/117/s/3860?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": "2022-08-01T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s3860/BILLS-117s3860es.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s3860/BILLS-117s3860es.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s3860/BILLS-117s3860es.xml"
+                }
+            ],
+            "type": "Engrossed in Senate"
+        },
+        {
+            "date": "2022-06-14T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s3860/BILLS-117s3860rs.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s3860/BILLS-117s3860rs.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s3860/BILLS-117s3860rs.xml"
+                }
+            ],
+            "type": "Reported to Senate"
+        },
+        {
+            "date": "2022-03-17T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/s3860/BILLS-117s3860is.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/s3860/BILLS-117s3860is.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/s3860/BILLS-117s3860is.xml"
+                }
+            ],
+            "type": "Introduced in Senate"
+        }
+    ]
+}

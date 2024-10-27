@@ -1,0 +1,69 @@
+{
+    "pagination": {
+        "count": 3
+    },
+    "request": {
+        "billNumber": "63",
+        "billType": "sjres",
+        "billUrl": "https://api.congress.gov/v3/bill/117/sjres/63?format=json",
+        "congress": "117",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": "2022-11-15T05:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/sjres63/BILLS-117sjres63es.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/sjres63/BILLS-117sjres63es.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/sjres63/BILLS-117sjres63es.xml"
+                }
+            ],
+            "type": "Engrossed in Senate"
+        },
+        {
+            "date": "2022-10-11T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/sjres63/BILLS-117sjres63pcs.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/sjres63/BILLS-117sjres63pcs.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/sjres63/BILLS-117sjres63pcs.xml"
+                }
+            ],
+            "type": "Placed on Calendar Senate"
+        },
+        {
+            "date": "2022-09-22T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/117/bills/sjres63/BILLS-117sjres63is.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/117/bills/sjres63/BILLS-117sjres63is.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/117/bills/sjres63/BILLS-117sjres63is.xml"
+                }
+            ],
+            "type": "Introduced in Senate"
+        }
+    ]
+}
