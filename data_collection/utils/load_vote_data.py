@@ -72,24 +72,15 @@ def parseJsonVotes(path):
     return dict(vote_count) 
 
 def plot_vote_counts(vote_count):
-    # Sort the dictionary by counts
     sorted_votes = dict(sorted(vote_count.items(), key=lambda item: item[1], reverse=True))
-    
-    # Prepare data for plotting: take only the top 100
     top_politicians = list(sorted_votes.keys())[:20]
     top_counts = list(sorted_votes.values())[:20]
-
-    # Create a bar chart
     plt.figure(figsize=(10, 6))
     bars = plt.barh(top_politicians, top_counts, color='skyblue')
-    
     plt.xlabel('Number of Votes')
     plt.title('Top 20 Vote Counts per Politician')
-    
-    # Set x-axis limits for zooming in
-    plt.xlim(0, max(top_counts) * 0.75)  # Zoom in to 75% of the max count
-    
-    plt.gca().invert_yaxis()  # Invert y-axis to show the highest votes on top
+    plt.xlim(0, max(top_counts) * 0.75)  
+    plt.gca().invert_yaxis()  
     plt.show()
 
 
@@ -125,6 +116,4 @@ def load_vote_data(file_prefix:str, year_start:int, year_end:int ):
 
 
    
-if __name__ == "__main__":
-    main()
 
