@@ -1,5 +1,5 @@
 from utils.initiate_bill_load import initiate_bill_load
-from util.load_vote_data import load_vote_data
+from utils.load_vote_data import load_vote_data
 
 
 
