@@ -73,15 +73,18 @@ def parseJsonVotes(path):
 
 def plot_vote_counts(vote_count):
     sorted_votes = dict(sorted(vote_count.items(), key=lambda item: item[1], reverse=True))
+    
     top_politicians = list(sorted_votes.keys())[:20]
     top_counts = list(sorted_votes.values())[:20]
+
     plt.figure(figsize=(10, 6))
     bars = plt.barh(top_politicians, top_counts, color='skyblue')
+    
     plt.xlabel('Number of Votes')
     plt.title('Top 20 Vote Counts per Politician')
-    plt.xlim(0, max(top_counts) * 0.75)  
-    plt.gca().invert_yaxis()  
-    plt.show()
+    
+    plt.xlim(0, max(top_counts) * 0.75)     
+    plt.gca().invert_yaxis()     plt.show()
 
 
 
@@ -106,14 +109,4 @@ def load_vote_data(file_prefix:str, year_start:int, year_end:int ):
     for politician, count in politician_number_of_votes.items():
         print(f"{politician}: {count}")
     
-    # plot_vote_counts(politician_number_of_votes)
-
-    print(len(politician_number_of_votes))
-
-    print(f'Average length: {float(total_length/document_count)}')
-    print(f'Number of documents: {document_count}')
-    
-
-
-   
 
