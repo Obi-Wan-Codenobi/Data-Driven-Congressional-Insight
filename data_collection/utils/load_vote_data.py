@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 import json
-from util.fetch_data import fetch_data
+from utils.fetch_data import fetch_data
 import threading
 import time
 from collections import defaultdict
