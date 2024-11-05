@@ -2,7 +2,7 @@ Pipfile*
 **/.DS_Store
 *.sql
 # Byte-compiled / optimized / DLL files
-__pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 

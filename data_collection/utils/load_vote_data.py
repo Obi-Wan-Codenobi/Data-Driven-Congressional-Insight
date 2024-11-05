@@ -7,8 +7,6 @@ import time
 from collections import defaultdict
 import matplotlib.pyplot as plt
 
-
-
 load_dotenv()
 
 politician_number_of_votes = {}
@@ -33,7 +31,7 @@ def start_thread(dir):
             json_path = os.path.join(path, 'data.json')  
             if os.path.exists(json_path):
                 vote_dict = parseJsonVotes(json_path) 
-                merge_and_count(vote_dict)
+                merge_dictionaries(politician_number_of_votes, vote_dict)
 
                 with document_lock:
                     global document_count, total_length
@@ -45,11 +43,10 @@ def start_thread(dir):
     except Exception as e:
         print(f"Error in thread for {dir}: {e}")
 
-def merge_and_count(new_dict):
-    global politician_number_of_votes 
+def merge_dictionaries(orginal_dict, new_dict):
     with lock:         
         for key, value in new_dict.items():
-            politician_number_of_votes[key] = politician_number_of_votes.get(key, 0) + value
+            orginal_dict[key] = orginal_dict.get(key, 0) + value
 
 
 def parseJsonVotes(path):
@@ -106,10 +103,11 @@ def load_vote_data(file_prefix:str, year_start:int, year_end:int ):
     for politician, count in politician_number_of_votes.items():
         print(f"{politician}: {count}")
     
-    # plot_vote_counts(politician_number_of_votes)
+    plot_vote_counts(politician_number_of_votes)
 
     print(len(politician_number_of_votes))
 
+    
     print(f'Average length: {float(total_length/document_count)}')
     print(f'Number of documents: {document_count}')
     

@@ -3,6 +3,7 @@ from utils.load_vote_data import load_vote_data
 from utils.bm25 import BM25
 from utils.dumbyloader import *
 import sys
+from utils.document import get_document_data
 
 def main():
     file_prefix = "./../../congress/data/118/votes/"
@@ -19,7 +20,8 @@ def main():
 
 
     
-
+    small_bill_data_directory ="./bill_texts"
+    documents, term_freq , total_number_of_docs = get_document_data(small_bill_data_directory)
 
     #set up scorer
     #other = Utilities() #dummy fuction, will be incorperated if needed
@@ -37,3 +39,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    

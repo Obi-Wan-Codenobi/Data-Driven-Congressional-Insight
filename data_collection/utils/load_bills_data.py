@@ -1,13 +1,11 @@
 import os
 from dotenv import load_dotenv
 import json
-from util.fetch_data import fetch_data
 import threading
 import time
-from collections import defaultdict
 import matplotlib.pyplot as plt
-
-
+import xmltodict
+import zipfile
 
 load_dotenv()
 
@@ -22,18 +20,25 @@ def start_thread(dir):
     try:
         if os.path.exists(dir):
             
-            directories = []
-            for item in os.listdir(dir):
-                if os.path.isdir(os.path.join(dir, item)):
-                    directories.append(os.path.join(dir, item))            
+            directories = get_directories(dir)           
         else:
             print(f"Directory does not exist: {dir}")
+            
+        for path in directories:
+              
+            # if zip:
+            
+            # if xml:
+            
+            # if json:
+            pass
 
         for path in directories:
+
             json_path = os.path.join(path, 'data.json')  
             if os.path.exists(json_path):
                 vote_dict = parseJsonVotes(json_path) 
-                merge_and_count(vote_dict)
+                merge_dictionaries(politician_number_of_votes, vote_dict)
 
                 with document_lock:
                     global document_count, total_length
@@ -45,14 +50,48 @@ def start_thread(dir):
     except Exception as e:
         print(f"Error in thread for {dir}: {e}")
 
-def merge_and_count(new_dict):
-    global politician_number_of_votes 
+def merge_dictionaries(orginal_dict, new_dict):
     with lock:         
         for key, value in new_dict.items():
-            politician_number_of_votes[key] = politician_number_of_votes.get(key, 0) + value
+            orginal_dict[key] = orginal_dict.get(key, 0) + value
 
+def unzip(zip_file_path):
+    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+        zip_ref.extractall()
 
-def parseJsonVotes(path):
+def find_all_files(directory):
+    file_paths = []
+    for root, dirs, files in os.walk(directory):
+        zip_files = [file for file in files if file.endswith('.zip')]
+        xml_files = [file for file in files if file.endswith('.xml')]
+        json_files = [file for file in files if file.endswith('.json')]
+        
+        if len(zip_files) > 0 and len(dirs)==0:
+            with zipfile.ZipFile(os.path.join(root, zip_files[0]), 'r') as zip_ref:
+                zip_ref.extractall()
+            unzipped_directories = get_directories(root)
+            for dir in unzipped_directories:
+                file_paths.extend(find_all_files(os.path.join(root, dir)))
+        elif len(xml_files)> 0 and len(dirs)==0:
+            for file in xml_files:
+                with open(os.path.join(root, dir), 'r') as file:
+                    xml_data = file.read()
+                    xml_dict = xmltodict.parse(xml_data)
+            
+            
+        elif len(zip_files) > 0 and len(other_files) > 0: # just add all directories anyway? It should not depend
+        
+            for dir in dirs:
+                dir_path = os.path.join(root, dir)
+                file_paths.extend(find_all_files(dir_path))  # Recursively search subdir
+        else:
+            # if no zip files (base case)
+            for file in other_files:
+                file_paths.append(os.path.join(root, file))
+                
+    return file_paths
+
+def parseXMLBills(path):
     with open(path, 'r') as file:
         try:
             json_data = json.load(file)
@@ -69,33 +108,30 @@ def parseJsonVotes(path):
                 display_name = voter.get("display_name")
                 if display_name:
                     vote_count[display_name] = vote_count.get(display_name, 0) + 1
+    
+    with open('data.xml', 'r') as file:
+        xml_data = file.read()
+
+    # write to json for future use
+    dict_data = xmltodict.parse(xml_data)
+    json_data = json.dumps(dict_data, indent=4)
+
     return dict(vote_count) 
 
-def plot_vote_counts(vote_count):
-    sorted_votes = dict(sorted(vote_count.items(), key=lambda item: item[1], reverse=True))
+def get_directories(dir):
+    directories = []
+    for item in os.listdir(dir):
+        if os.path.isdir(os.path.join(dir, item)):
+            directories.append(os.path.join(dir, item))
+    return directories
     
-    top_politicians = list(sorted_votes.keys())[:20]
-    top_counts = list(sorted_votes.values())[:20]
 
-    plt.figure(figsize=(10, 6))
-    bars = plt.barh(top_politicians, top_counts, color='skyblue')
+
+def load_bill_data(file_prefix:str):
+    bills_data = get_directories(file_prefix)
     
-    plt.xlabel('Number of Votes')
-    plt.title('Top 20 Vote Counts per Politician')
-    
-    plt.xlim(0, max(top_counts) * 0.75)     
-    plt.gca().invert_yaxis()     plt.show()
-
-
-
-def load_vote_data(file_prefix:str, year_start:int, year_end:int ):
-    voting_data = []
-    
-    for year in range(year_start, year_end + 1):
-        voting_data.append(f'{file_prefix}{year}/')
-
     threads = []
-    for i in voting_data:  
+    for i in bills_data:  
         thread = threading.Thread(target=start_thread, args=(i,))
         threads.append(thread)
 
