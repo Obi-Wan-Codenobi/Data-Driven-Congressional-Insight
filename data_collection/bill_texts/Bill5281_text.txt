@@ -1,28 +1,25 @@
 
 
-
-117 HR 5281 IH: Securing Technology Against Climate Impacts Act
+118 HR 5281 IH: Lead Endangers Animals Daily Act of 2023
 U.S. House of Representatives
-2021-09-17
+2023-08-25
 text/xml
 EN
 Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.
 
 
 
-I
-117th CONGRESS1st Session
-H. R. 5281
-IN THE HOUSE OF REPRESENTATIVES
-
-September 17, 2021
-Mr. Neguse introduced the following bill; which was referred to the Committee on Armed Services
-
-A BILL
-To amend title 10, United States Code, to require reporting on vulnerabilities due to climate change and cyberattacks in the National Technology and Industrial Base, and for other purposes.
-
-
-1.Short titleThis Act may be cited as the Securing Technology Against Climate Impacts Act. 2.Inclusion of information regarding climate change in reports on National Technology and Industrial BaseSection 2504(3)(B) of title 10, United States Code, is amended—
-(1)by redesignating clauses (i) through (iii) as clauses (ii) through (iv), respectively; and (2)by inserting before clause (ii), as so redesignated, the following new clause (i):
-
-(i)vulnerabilities related to the current and projected impacts of climate change and to cyberattacks or disruptions;.  
+I118th CONGRESS1st SessionH. R. 5281IN THE HOUSE OF REPRESENTATIVESAugust 25, 2023Mr. Lieu (for himself and Ms. Barragán) introduced the following bill; which was referred to the Committee on Natural ResourcesA BILLTo require the Secretary of the Interior to prohibit the use of lead ammunition on United States Fish and Wildlife Service lands, and for other purposes. 
+1.Short titleThis Act may be cited as the Lead Endangers Animals Daily Act of 2023 or the LEAD Act of 2023. 2.FindingsCongress finds the following:
+(1)In 1991, the United States Fish and Wildlife Service required the use of nontoxic ammunition for all waterfowl hunting. (2)Research has shown that the presence of lead in the environment poses a threat to human and wildlife health.
+(3)The Environmental Protection Agency has determined that lead is toxic to both humans and animals, and can negatively affect nearly every organ and system in the human body, including the heart, bones, intestines, kidneys, and reproductive and nervous systems. Lead exposure interferes with the development of the nervous system and is therefore particularly toxic to children, causing potentially permanent learning and behavioral disorders. (4)Lead is a potent neurotoxin, for which no safe exposure level exists for humans. The use of lead has been outlawed in and removed from paint, gasoline, children’s toys, and many other items to protect human health and wildlife.
+(5)Wildlife, including federally listed threatened and endangered species, is at risk of lead toxicosis through the ingestion of lead ammunition, either directly by ingesting lead from spent ballistic materials while foraging, or indirectly by scavenging carcasses and viscera left by hunters. Lead may also pollute soil and water around outdoor shooting ranges. (6)Lead ammunition also endangers human food supplies. Dairy and beef cattle have developed lead poisoning after feeding in areas where spent lead ammunition has accumulated. Spent lead ammunition can also contaminate crops, vegetation, and waterways.
+(7)Humans are at risk of lead toxicosis through the consumption of game meat harvested with lead ammunition. (8)Alternatives to lead ammunition are readily available, and studies have shown that nonlead ammunition performs just as well as lead-based ammunition.
+(9)In January 2017, the outgoing Director of the United States Fish and Wildlife Service issued Director’s Order 219. In March 2017, the Principal Deputy Director of the United States Fish and Wildlife Service repealed this Order. 3.Nontoxic ammunition (a)In generalExcept as provided in subsection (c), and not later than 1 year after enactment, the Secretary, acting through the Director, shall issue final regulations prohibiting the discharge of any firearm using ammunition other than nonlead ammunition certified under subsection (b) on all lands and waters under the jurisdiction and control of the United States Fish and Wildlife Service.
+(b)CertificationThe Director shall, for the purposes of enforcing this section and in consultation with State and Tribal governments, establish and annually update a list of nonlead ammunition. (c)ExceptionsThe prohibition under subsection (a) shall not apply to—
+(1)a Government official or agent carrying out a statutory duty unrelated to the management of wildlife; (2)a State, local, Tribal, or Federal law enforcement officer or the agent of such officer when carrying out a statutory duty; and
+(3)an active member of the United States military when carrying out official duties. (d)PenaltiesA person that knowingly violates subsection (a) may be assessed a civil penalty by the Secretary of no more than $500 for the first violation. A second or subsequent violation shall be punishable by a fine of not less than $1,000 or more than $5,000.
+(e)DefinitionsIn this section: (1)AmmunitionThe term ammunition means any bullet, ball, sabot, slug, buckshot, shot, pellet, or other projectile that is expelled from a firearm through a barrel by force.
+(2)DirectorThe term Director means the Director of the United States Fish and Wildlife Service. (3)ExplosiveThe term explosive has the meaning given such term in section 844 of title 18, United States Code.
+(4)FirearmThe term firearm means any weapon which expels ammunition by the action of an explosive or compressed air. (5)Nonlead ammunitionThe term nonlead ammunition means ammunition in which there is no lead content, excluding the presence of trace amounts of lead.
+(6)SecretaryThe term Secretary means the Secretary of the Interior. (7)Trace amountsThe term trace amounts means one percent or less by weight of the total weight of the ammunition. 

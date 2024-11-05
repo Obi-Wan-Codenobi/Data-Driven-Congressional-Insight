@@ -1,34 +1,12 @@
 
 
-
-117 HR 5211 IH: To amend the Omnibus Crime Control and Safe Streets Act of 1968 to provide that COPS grant funds may be used for local law enforcement recruits to attend schools or academies if the recruits agree to serve in precincts of law enforcement agencies in their communities.
+118 HR 5211 IH: USPIS Surveillance Protection Act
 U.S. House of Representatives
-2021-09-10
+2023-08-15
 text/xml
 EN
 Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.
 
 
 
-I
-117th CONGRESS1st Session
-H. R. 5211
-IN THE HOUSE OF REPRESENTATIVES
-
-September 10, 2021
-Mr. Correa introduced the following bill; which was referred to the Committee on the Judiciary
-
-A BILL
-To amend the Omnibus Crime Control and Safe Streets Act of 1968 to provide that COPS grant funds may be used for local law enforcement recruits to attend schools or academies if the recruits agree to serve in precincts of law enforcement agencies in their communities.
-
-
-1.Strong Communities ProgramSection 1701 of the Omnibus Crime Control and Safe Streets Act of 1968 (34 U.S.C. 10381) is amended— (1)by redesignating subsection (m) as subsection (n); and
-(2)by inserting after subsection (l) the following:  (m)COPS Strong Communities Program (1)Definitions (A)Eligible entityThe term eligible entity means—
-(i)an institution of higher education, as defined in section 101 of the Higher Education Act of 1965 (20 U.S.C. 1001), that, in coordination or through an agreement with a local law enforcement agency, offers a law enforcement training program; or (ii)a local law enforcement agency that offers a law enforcement training program.
-(B)Local law enforcement agencyThe term local law enforcement agency means an agency of a State, unit of local government, or Indian Tribe that is authorized by law or by a government agency to engage in or supervise the prevention, detection, investigation, or prosecution of any violation of criminal law. (2)GrantsThe Attorney General may use amounts otherwise appropriated to carry out this section for a fiscal year (beginning with fiscal year 2022) to make competitive grants to local law enforcement agencies to be used for recruits to attend eligible entities if the recruits agree to serve in law enforcement agencies in their communities.
-(3)EligibilityTo be eligible for a grant under this subsection, each recruit described in paragraph (2) shall— (A)serve as a full-time law enforcement officer for a total of not fewer than 4 years during the 8-year period after the date on which the recruit completes a law enforcement training program for which the recruit received benefits;
-(B)complete their service in a local law enforcement agency located within— (i)5 miles of the residence of the recruit where the recruit has resided for not fewer than 5 years; or
-(ii)if the recruit resides in a county with less than 100,000 residents, within 20 miles of the residence of the recruit where the recruit has resided for not fewer than 5 years; and (C)submit evidence of employment of the recruit to the eligible agency in the form of a certification by the chief administrative officer of the local law enforcement agency where the recruit is employed.
-(4)Repayment
-(A)In generalIf a recruit does not complete the service described in paragraph (3), the recruit shall submit to the local law enforcement agency an amount equal to any benefits the recruit received under this subsection. (B)RegulationsThe Attorney General shall promulgate regulations that establish categories of extenuating circumstances under which a recruit may be excused from repayment under subparagraph (A)..
-
+I118th CONGRESS1st SessionH. R. 5211IN THE HOUSE OF REPRESENTATIVESAugust 15, 2023Mr. Gaetz introduced the following bill; which was referred to the Committee on Oversight and AccountabilityA BILLTo prohibit funds from being used to implement the Internet Covert Operations Program under the United States Postal Inspection Service, and for other purposes.1.Short titleThis Act may be cited as the USPIS Surveillance Protection Act.2.FindingsThe Congress finds as follows:(1)The United States Postal Service has been operating a clandestine domestic surveillance program of Americans’ social media activity known as the Internet Covert Operations Program (iCOP).(2)iCOP is part of the United States Postal Inspection Service which is the law enforcement and security component of USPS.(3)A March 25, 2022, report by the USPS Inspector General stated: We determined that certain proactive searches iCOP conducted using an open-source intelligence tool from February to April 2021 exceeded the Postal Inspection Service’s law enforcement authority.(4)The USP Inspection Service is operating outside of its USPS jurisdiction when it monitors internet users’ sharing of information as its jurisdiction is narrowly defined within postal mail only.(5)The iCOP program is a violation of privacy; it encroaches upon the private lives of Americans and seeks to curb constitutional rights of the First Amendment.(6)iCOP is not only illegal for operating outside of its stated jurisdiction, but also politically motivated in its target.3.Prohibition on funding of programNo Federal funds (including amounts available in the Postal Service Fund established under section 2003 of title 39, United States Code) may be used to implement, conduct, or otherwise carry out the Internet Covert Operations Program operated by the United States Postal Inspection Service or any other domestic surveillance program with targets that do not have an identified connection to the mail, postal crimes, or the security of Postal Service facilities or personnel, or with politically motivated targets.
