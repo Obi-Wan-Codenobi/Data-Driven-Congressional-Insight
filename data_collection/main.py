@@ -13,6 +13,7 @@ def main():
    
     user_query = input("What topic would you like to reference? ")
     query = StoreQuery(user_query)
+    
 
     small_bill_data_directory = "./bill_texts"
     documents, _, total_number_of_docs = get_document_data(small_bill_data_directory)
@@ -21,19 +22,19 @@ def main():
     scorer = BM25(documents, {}, total_number_of_docs, query)
 
     
-    freq_per_doc = scorer.calculate_term_frequencies(documents)
-
-    
-    scorer.freq_per_doc = freq_per_doc
+    #scorer.calculate_term_frequencies(documents)
 
     
     scored_documents = scorer.score_documents()
+    scored_documents.sort(key=lambda x: x[1], reverse=True)
 
     
     top_x = 5  
     for i in range(min(top_x, len(scored_documents))):
         doc, score = scored_documents[i]
         print(f"Document: {doc['TITLE']}, Score: {score}")
+
+   
 
     sys.exit()
 

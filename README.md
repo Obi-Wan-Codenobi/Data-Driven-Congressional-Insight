@@ -25,3 +25,7 @@
 3. Perform boolean search on whether the candidate voted against or for it in relation to the nature of the bill
 
 
+## Testing Queries:
+- District of Columbia
+    Most relevant: District of Columbia Zoning Commission Home Rule Act
+
