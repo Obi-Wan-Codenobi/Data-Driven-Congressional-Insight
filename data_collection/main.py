@@ -3,6 +3,7 @@ from utils.load_vote_data import load_vote_data
 from utils.bm25 import BM25
 from utils.dumbyloader import *
 import sys
+import re
 from utils.document import get_document_data
 
 def main():

@@ -1,6 +1,8 @@
+import re
+
 class StoreQuery:
-        def __init__(self, query_words):
-            self.query_words = query_words.lower().split()
+    def __init__(self, query_words):
+        self.query_words = re.findall(r'\w+', query_words.lower())
 
 
 #just in case

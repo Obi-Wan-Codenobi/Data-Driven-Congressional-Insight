@@ -28,4 +28,6 @@
 ## Testing Queries:
 - District of Columbia
     Most relevant: District of Columbia Zoning Commission Home Rule Act
+- COVID-19
+    Most relevant: To prohibit any requirement that a member of the Armed Forces receive a vaccination against COVID-19
 
