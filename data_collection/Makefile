@@ -2,7 +2,7 @@ VENV_NAME = DataScrape
 PYTHON = $(VENV_NAME)/bin/python
 PIP = $(VENV_NAME)/bin/pip
 REQUIREMENTS = requirements.txt
-REQUIRED_PYTHON_VERSION = 3.12.3
+REQUIRED_PYTHON_VERSION = 3.12
 PACKAGE ?= __ERROR__
 
 # Define target for 'make'
@@ -14,11 +14,10 @@ all: checkPython install run
 checkPython:
 	@echo "Checking Python version..."
 	@current_version=$$(python3 --version | awk '{print $$2}'); \
-	if [ "$$current_version" != "$(REQUIRED_PYTHON_VERSION)" ]; then \
+	if ! echo "$$current_version" | grep -qE '^3\.12\..*$$'; then \
 		echo "Error: Required Python version is $(REQUIRED_PYTHON_VERSION), but found $$current_version."; \
 		exit 1; \
 	fi
-
 # Create python3 env
 $(VENV_NAME):
 	@echo "Creating virtual environment..."
