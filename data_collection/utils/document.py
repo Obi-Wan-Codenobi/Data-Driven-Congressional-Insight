@@ -40,7 +40,7 @@ def get_document_data(file_path):
                         body[word] += 1
                         
                     
-        
+            document["BODY"] = ' '.join(body)
             document["BODY_COUNT"] = body 
             document["BODY_LENGTH"] = len(body)
             documents.append(document)
