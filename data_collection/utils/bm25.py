@@ -19,12 +19,14 @@ class BM25:
         self.pageRank_lambda_prime = 0.9
 
         # bm25 storages
-        self.lengths = {}
-        self.avg_lengths = {}
+        self.lengths = {} #used in calc_average_lengths & normalize
+        self.avg_lengths = {} 
         self.pagerank_scores = {}
 
         # Calculate average lengths
         self.calc_average_lengths()
+
+
 
     def calc_average_lengths(self):
         total_title_length = 0.0
