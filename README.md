@@ -8,6 +8,15 @@ cd data_collection && make
 ```
 
 # Test
+input:
+```
+district of colombia 
+```
+```
+covid 19 research
+```
+
+# Test
 ```
 Covid related files:
 H.R. 1346
