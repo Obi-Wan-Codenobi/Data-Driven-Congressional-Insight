@@ -107,6 +107,7 @@ def load_vote_data(file_prefix:str, year_start:int, year_end:int ):
 
     print(len(politician_number_of_votes))
 
+    
     print(f'Average length: {float(total_length/document_count)}')
     print(f'Number of documents: {document_count}')
     

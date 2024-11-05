@@ -73,6 +73,10 @@ def find_all_files(directory):
             for dir in unzipped_directories:
                 file_paths.extend(find_all_files(os.path.join(root, dir)))
         elif len(xml_files)> 0 and len(dirs)==0:
+            for file in xml_files:
+                with open(os.path.join(root, dir), 'r') as file:
+                    xml_data = file.read()
+                    xml_dict = xmltodict.parse(xml_data)
             
             
         elif len(zip_files) > 0 and len(other_files) > 0: # just add all directories anyway? It should not depend
