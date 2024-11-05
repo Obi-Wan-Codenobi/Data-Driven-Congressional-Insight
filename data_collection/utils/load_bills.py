@@ -2,6 +2,8 @@ import requests
 import os
 import json
 import xml.etree.ElementTree as ET
+import re
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -87,3 +89,44 @@ def save_bill_texts(xml_urls, output_folder):
             print(f"Error parsing XML from {xml_url}: {e}")
         except Exception as e:
             print(f"An error occurred while processing the XML: {e}")
+            
+            
+    # total word count in all file for each word
+    # 
+    # title, file_length, title_length, 
+def get_bills_txt(xml_file_path):
+    files = []
+    for root, dirs, filenames in os.walk(xml_file_path):
+        for filename in filenames:
+            full_path = os.path.join(root, filename)
+            files.append(full_path)
+    
+    documents = []
+    for file in files:
+        written_title = False
+        
+        document = {}
+        with open(file, 'r') as f:
+            body = {}
+            for line in f:
+                line = line.strip()
+                if not written_title and bool(re.search(r'\w+', line)):
+                    document ["TITLE"] = line
+                    document ["TITLE_LENGTH"] = len(line)
+                    written_title = True
+                
+                # Includes words and numbers
+                words = re.findall(r'\w+', line.lower())
+                for word in words:
+                    if word not in body:
+                        body[word] = 1
+                    else:
+                        body[word] += 1
+        
+            document["BODY"] = body 
+            document["BODY_LENGTH"] = len(body)
+            documents.append(document)
+            
+        
+    print(documents)
+                    
