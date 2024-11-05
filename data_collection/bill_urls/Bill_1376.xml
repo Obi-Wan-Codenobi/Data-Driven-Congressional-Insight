@@ -1,0 +1,51 @@
+{
+    "pagination": {
+        "count": 2
+    },
+    "request": {
+        "billNumber": "1376",
+        "billType": "hr",
+        "billUrl": "https://api.congress.gov/v3/bill/118/hr/1376?format=json",
+        "congress": "118",
+        "contentType": "application/json",
+        "format": "json"
+    },
+    "textVersions": [
+        {
+            "date": "2023-03-30T04:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/118/bills/hr1376/BILLS-118hr1376rh.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/118/bills/hr1376/BILLS-118hr1376rh.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/118/bills/hr1376/BILLS-118hr1376rh.xml"
+                }
+            ],
+            "type": "Reported in House"
+        },
+        {
+            "date": "2023-03-03T05:00:00Z",
+            "formats": [
+                {
+                    "type": "Formatted Text",
+                    "url": "https://www.congress.gov/118/bills/hr1376/BILLS-118hr1376ih.htm"
+                },
+                {
+                    "type": "PDF",
+                    "url": "https://www.congress.gov/118/bills/hr1376/BILLS-118hr1376ih.pdf"
+                },
+                {
+                    "type": "Formatted XML",
+                    "url": "https://www.congress.gov/118/bills/hr1376/BILLS-118hr1376ih.xml"
+                }
+            ],
+            "type": "Introduced in House"
+        }
+    ]
+}

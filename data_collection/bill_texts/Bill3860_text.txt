@@ -1,31 +1,12 @@
- 
 
 
-117 HR 3860 IH: To prohibit any requirement that a member of the Armed Forces receive a vaccination against COVID-19.
+117 HR 3860 IH: Humane Correctional Health Care Act
 U.S. House of Representatives
-2021-06-14
+2023-06-06
 text/xml
 EN
 Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.
 
 
 
-I 
-117th CONGRESS1st Session 
-H. R. 3860 
-IN THE HOUSE OF REPRESENTATIVES 
- 
-June 14, 2021 
-Mr. Massie (for himself, Mr. Roy, Mr. Gooden of Texas, Mrs. Greene of Georgia, Mrs. Boebert, Mr. Perry, Mr. Steube, Mr. Biggs, Mr. Clyde, Mr. Burchett, Mr. Duncan, Mr. Gosar, and Mr. Mooney) introduced the following bill; which was referred to the Committee on Armed Services 
- 
-A BILL 
-To prohibit any requirement that a member of the Armed Forces receive a vaccination against COVID-19. 
- 
- 
-1.Prohibitions on requirement that a member of the Armed Forces receive a vaccination against COVID-19 
-(a)Prohibition on fundingNo Federal funds may be used to require a member of the Armed Forces to receive a vaccination against COVID-19. (b)Prohibition on adverse actionThe Secretary concerned may not take any adverse action against a member of the Armed Forces because such member refuses to receive a vaccination against COVID-19. 
-(c)DefinitionsIn this section: (1)The term adverse action includes the following: 
-(A)Retaliation. (B)Punishment. 
-(C)Disparate treatment. (D)A requirement to wear a mask. 
-(E)A requirement to reside in substandard housing. (2)The term Secretary concerned has the meaning given that term in section 101 of title 10, United States Code. 
- 
+I118th CONGRESS1st SessionH. R. 3860IN THE HOUSE OF REPRESENTATIVESJune 6, 2023Ms. Kuster (for herself, Mr. Fitzpatrick, Ms. Blunt Rochester, Mr. Cárdenas, Mr. Trone, Ms. Bonamici, Mr. Smith of Washington, Ms. Sewell, Ms. Balint, and Mr. McGovern) introduced the following bill; which was referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concernedA BILLTo amend titles XIX and XXI of the Social Security Act to provide a consistent standard of health care to incarcerated individuals, and for other purposes.1.Short titleThis Act may be cited as the Humane Correctional Health Care Act.2.Repeal of Medicaid and CHIP exclusions relating to incarcerated individuals(a)MedicaidSection 1905(a) of the Social Security Act (42 U.S.C. 1396d(a)) is amended, in the matter following paragraph (31), by striking such term does not include— and all that follows through patient in an institution for mental diseases and inserting such term does not include any such payments with respect to care or services for any individual who has not attained 65 years of age and who is a patient in an institution for mental diseases.(b)CHIPSection 2110(b) of the Social Security Act (42 U.S.C. 1397jj(b)) is amended—(1)in paragraph (2)(A), by striking except as provided and all that follows through public institution or; and(2)by striking paragraph (7).(c)Conforming amendments(1)Section 1902 of the Social Security Act (42 U.S.C. 1396a) is amended—(A)in subsection (a), by striking paragraph (84); and(B)by striking subsection (nn).(2)Section 1905(a) of the Social Security Act (42 U.S.C. 1396d(a)), as amended by subsection (a), is amended, in the matter following paragraph (31), by striking set forth in the subdivision (B) following paragraph (30) of the first sentence of this subsection and inserting set forth in the portion of the first sentence of this subsection that follows the last numbered paragraph of this subsection.(3)Section 5122 of division FF of the Consolidated Appropriations Act, 2023 (Public Law 117–328) is repealed.(d)Effective dateThe amendments made by this section shall apply with respect to medical assistance, child health assistance, and pregnancy-related assistance provided on or after January 1, 2024.3.Report by Comptroller GeneralNot later than the date that is 3 years after the date of enactment of this Act, and annually thereafter for each of the following 5 years, the Comptroller General of the United States shall submit to Congress a report containing the following information:(1)The percentage of incarcerated individuals that receive medical assistance under a State plan under title XIX of the Social Security Act (42 U.S.C. 1396 et seq.) or child health assistance or pregnancy-related assistance under a State plan under title XXI of the Social Security Act (42 U.S.C. 1397aa et seq.).(2)The access of incarcerated individuals to health care services, including specialty care, and health care providers.(3)The quality of healthcare services provided to incarcerated individuals.(4)Any impact of coverage under such a State plan on recidivism.(5)The percentage of incarcerated individuals who, upon release, are—(A)enrolled under such a State plan; and(B)connected to a primary care provider in their community.(6)Trends in the prevalence and incidence of illness and injury among incarcerated individuals.(7)Any other information the Comptroller General determines necessary regarding the health of incarcerated individuals.4.Sense of Congress on incarceration and community-based health servicesIt is the sense of Congress that—(1)no individual in the United States should be incarcerated for the purpose of being provided with health care that is unavailable to the individual in the individual’s community;(2)each State and unit of local government should establish programs that offer community-based health services (including mental health and substance use disorder services) commensurate with the principle stated in paragraph (1); and(3)Federal reimbursement for expenditures on medical assistance, child health assistance, or pregnancy-related assistance made available through the amendments made by this Act should not supplant an investment in community-based services.

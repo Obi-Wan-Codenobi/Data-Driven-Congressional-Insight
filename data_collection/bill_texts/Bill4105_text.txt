@@ -1,29 +1,23 @@
 
 
-
-117 HR 4105 IH: Restoring Northern Border Travel Act
+118 HR 4105 IH: Stop Pills That Kill Act
 U.S. House of Representatives
-2021-06-23
+2023-06-14
 text/xml
 EN
 Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.
 
 
 
-I
-117th CONGRESS1st Session
-H. R. 4105
-IN THE HOUSE OF REPRESENTATIVES
-
-June 23, 2021
-Ms. Stefanik introduced the following bill; which was referred to the Committee on Homeland Security, and in addition to the Committees on the Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned
-
-A BILL
-To require the Secretary of Homeland Security to expand the list of categories of essential travel into the United States at land ports of entry along the United States-Canada border, and for other purposes.
-
-
-1.Short titleThis Act may be cited as the Restoring Northern Border Travel Act. 2.Restoring travel at the United States-Canada border (a)In generalNot later than 10 days after the date of the enactment of this Act, the Secretary of Homeland Security shall expand the list of permitted essential travel into the United States at land ports of entry along the United States-Canada border to include the following categories:
-(1)An individual traveling to visit a member, who is a United States citizen or permanent resident, of the immediate or extended family of such individual. (2)An individual traveling to visit property, including boats, within the United States owned or leased by such individual.
-(3)An individual traveling to the United States to attended business meetings or site-visits. (4)An individual traveling directly to a United States airport to board a flight to a United States or international destination. 
-(b)Plan for full reopeningNot later than 20 days after the date of the enactment of this Act, the Secretary of Homeland Security shall submit to Congress and begin implementation of a plan to fully restore nonessential travel into the United States at land ports of entry along the United States-Canada border. (c)ApplicabilityThis section applies to only those restrictions (and the related relief sought in accordance with this section) in place pursuant to section 318(b)(2) of the Tariff Act of 1930 (19 U.S.C. 1318(b)(2)) at land ports of entry along the United States-Canada border due to the COVID–19 public health emergency as in effect on the date of the enactment of this Act.
-
+I118th CONGRESS1st SessionH. R. 4105IN THE HOUSE OF REPRESENTATIVESJune 14, 2023Mr. Buck (for himself, Mr. Joyce of Ohio, Mr. Stanton, and Mr. Correa) introduced the following bill; which was referred to the Committee on the Judiciary, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concernedA BILLTo amend the Controlled Substances Act to prohibit certain acts related to fentanyl, analogues of fentanyl, and counterfeit substances, and for other purposes. 
+1.Short titleThis Act may be cited as the Stop Pills That Kill Act. 2.DefinitionIn this Act, the term counterfeit fentanyl or methamphetamine substance means a substance that—
+(1)contains fentanyl, any analogue of fentanyl, or methamphetamine; and (2)is marketed, sold, or falsely bears the trademark, trade name, or other identifying mark, imprint, number, or any likeness thereof of another product. 
+3.Prohibited actsSection 403(d)(2) of the Controlled Substances Act (21 U.S.C. 843(d)(2)) is amended, in the matter preceding subparagraph (A), by inserting , fentanyl, an analogue of fentanyl, or a counterfeit substance after methamphetamine. 4.Comprehensive planNot later than 180 days after the date of enactment of this Act, the Administrator of the Drug Enforcement Administration shall establish and implement an operation and response plan to address counterfeit fentanyl or methamphetamine substances that includes—
+(1)strategies to enable and empower Federal law enforcement efforts to investigate and seize counterfeit fentanyl or methamphetamine substances; (2)specific ways that education and prevention efforts to stop the use of counterfeit fentanyl or methamphetamine substances will be increased, including how—
+(A)ongoing efforts, such as Operation Engage, are effective in increasing education and prevention; and (B)how the efforts described in subparagraph (A) are tailored to youth and teen access; and
+(3)an audit of current campaigns, including the One Pill Can Kill campaign, on counterfeit fentanyl or methamphetamine substances, including a review of data and other available information on how the campaigns can be tailored, adjusted, or improved to better address the flow of counterfeit fentanyl or methamphetamine substances.  5.Report to Congress (a)ReportNot later than 1 year after the date of enactment of this Act, and every year thereafter, the Attorney General, in consultation with the Administrator of the Drug Enforcement Administration and Director of the Office of National Drug Control Policy, shall submit to Congress a report on information regarding the collection and prosecutions of counterfeit fentanyl or methamphetamine substances.
+(b)ContentsThe report required under subsection (a) shall include the following: (1)Data on the aggregate number of counterfeit fentanyl or methamphetamine substances seized and collected by Federal law enforcement agencies.
+(2)A breakdown on how many counterfeit fentanyl or methamphetamine substances are in pill form. (3)A breakdown on which illicit substances are present in the counterfeit fentanyl or methamphetamine substances that are in pill form.
+(4)Data outlining where and when counterfeit fentanyl or methamphetamine substances were seized. (5)Data on the charges filed against those manufacturing, distributing, or dispensing, or possessing with the intent to distribute or dispense, a counterfeit fentanyl or methamphetamine substance, particularly in pill form, pursuant to paragraph (1) or (2) of section 401(a) of the Controlled Substances Act (21 U.S.C. 841(a)), unless disclosure of the data would—
+(A)require unsealing an indictment; or (B)undermine investigations and charges brought by the Department of Justice. 
+(6)Data on the convictions and sentences against those who are found guilty under paragraph (1) or (2) of section 401(a) of the Controlled Substances Act (21 U.S.C. 841(a)) as it pertains to counterfeit fentanyl or methamphetamine substances, particularly those in pill form. (7)Any prevention measures that the Department of Justice, Drug Enforcement Administration, or Office of National Drug Control Policy are undertaking to limit and reduce the spread of counterfeit fentanyl or methamphetamine substances in pill form, including ongoing public awareness campaigns. 

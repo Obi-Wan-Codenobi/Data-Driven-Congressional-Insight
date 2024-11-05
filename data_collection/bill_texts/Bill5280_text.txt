@@ -1,12 +1,23 @@
 
 
-117 HR 5280 IH: Local Resiliency Act
+118 HR 5280 IH: Expediting Civil Litigation Against the Executive Act of 2023
 U.S. House of Representatives
-2021-09-17
+2023-08-25
 text/xml
 EN
 Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.
 
 
 
-I117th CONGRESS1st SessionH. R. 5280IN THE HOUSE OF REPRESENTATIVESSeptember 17, 2021Mr. Neguse introduced the following bill; which was referred to the Committee on Armed ServicesA BILLTo amend title 10, United States Code, to increase Federal assistance available to State and local governments for maintaining and improving military resilience, and for other purposes.1.Short titleThis Act may be cited as the Local Resiliency Act.2.Grants for maintaining or improving military installation resilienceSection 2391 of title 10, United States Code, is amended—(1)in subsection (b)(5), by adding at the end the following new subparagraph:(D)(i)The Secretary of Defense may also make grants, conclude cooperative agreements, and supplement other Federal funds, in order to assist a State or local government in planning and implementing measures and projects that, as determined by the Secretary of Defense, will contribute to maintaining or improving military installation resilience. Amounts appropriated or otherwise made available for assistance under this subparagraph shall remain available until expended. (ii)In the case of funds provided under this subparagraph for projects involving the preservation, maintenance, or restoration of natural features for the purpose of maintaining or enhancing military installation resilience, such funds may be provided in a lump sum and include an amount intended to cover the future costs of the natural resource maintenance and improvement activities required for the preservation, maintenance, or restoration of such natural features, and may be placed by the recipient in an interest-bearing or other investment account, and any interest or income shall be applied for the same purposes as the principal.; and(2)in subsection (e)(1), by striking subsection (b)(1)(D) and inserting paragraphs (1) (D) and (E) and (5)(D) of subsection (b) and subsection (d). 
+I118th CONGRESS1st SessionH. R. 5280IN THE HOUSE OF REPRESENTATIVESAugust 25, 2023Mr. Lieu introduced the following bill; which was referred to the Committee on the JudiciaryA BILLTo amend title 28, United States Code, to provide for the expedited review of actions to which the President is a party, and for other purposes. 
+1.Short titleThis Act may be cited as the Expediting Civil Litigation Against the Executive Act of 2023. 2.Expedited review of actions to which the President is a party (a)In generalChapter 190 of title 28, United States Code, is amended by adding at the end the following: 
+
+5002.Expedited review of actions to which the President is a party
+(a)In generalWith respect to a covered civil action, the following shall apply: (1)The court shall advance on the docket and expedite to the greatest possible extent the disposition of such civil action.
+(2)Upon the request of a party, the civil action shall be heard by a three-judge panel pursuant to section 2284. (3)An appeal may be taken directly to the Supreme Court of the United States from any final judgment in such a civil action, and if it has not previously ruled on the question, the Supreme Court shall accept jurisdiction over the appeal, advance the appeal on the docket, and expedite the appeal to the greatest extent possible.
+(b)DefinitionIn this section, the term covered civil action means a civil action in which— (1) (A)the President has a personal financial interest; or 
+(B)the President’s conduct is alleged to constitute sexual harassment, sexual assault, or other sexual misconduct; (2)the President is properly joined as a party; and
+(3)the complainant has stated a valid claim upon which relief can be granted. . (b)Clerical amendmentThe table of sections for chapter 190 of title 28, United States Code, is amended by inserting after the item related to section 5001 the following: 
+
+
+5002. Expedited review of actions to which the President is a party. . 
