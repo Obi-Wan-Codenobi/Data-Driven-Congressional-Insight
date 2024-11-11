@@ -5,8 +5,16 @@ from utils.dumbyloader import *
 import sys
 import re
 from utils.document import get_document_data
+from utils.load_bills_data import load_bill_data
 
 def main():
+    arg = input("Convert xml data to txt? Type: '1' (yes) or '0'(no)")
+    if int(arg)>0:
+        #convert data
+        bills_path = "./../data/congres-repo/data/118/bills"
+        files = load_bill_data(bills_path)
+        sys.exit()
+    
     file_prefix = "./../../congress/data/118/votes/"
     
     year_start = 2016
