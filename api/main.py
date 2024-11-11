@@ -11,8 +11,7 @@ app.include_router(router)
 '''
 Enable CORSMiddleware
 
-Note: This will need to be changed in the future
-        once we get AWS up and going.
+Note: This will need to be changed in the future.
 '''
 app.add_middleware(
     CORSMiddleware,
