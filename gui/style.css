@@ -1,0 +1,133 @@
+/* Base Styles */
+body {
+    background-image: url('imgs/background.jpg');
+    /* Ensure this path is correct */
+    background-size: cover;
+    background-attachment: fixed;
+    /* Keeps the image stationary when scrolling */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* Ensures the background covers the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Title Styling */
+.title-head {
+    margin-top: 20px;
+    color: white;
+    /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Adds a shadow to the text */
+    font-size: 3em;
+    /* Larger text size */
+    text-align: center;
+}
+
+/* Search Container */
+.search-container {
+    width: 80%;
+    /* Takes up most of the screen width */
+    max-width: 600px;
+    /* Sets a maximum width for larger screens */
+    margin: 20px auto;
+    /* Adds some margin for spacing */
+}
+
+.search-bar {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Table Formatting */
+.table-main {
+    border: 2px solid #ddd;
+
+    margin: 20px auto;
+    width: 100%;
+
+    max-width: 1200px;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Adds a light background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow */
+}
+
+.tr-title {
+    background-color: #f4f4f4;
+    /* Light background for header */
+    font-size: 1.2em;
+    /* Larger font size for headers */
+}
+
+.tr-main {
+    height: 70px;
+    /* Row height */
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Button Styling */
+.button-form {
+    background-color: rgb(176, 196, 222);
+
+    /* Green background */
+    color: black;
+    /* White text */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Smooth transitions */
+}
+
+.button-form:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+    transform: scale(1.05);
+    /* Slightly enlarge button on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-container {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .table-main {
+        display: inline-block;
+        width: auto;
+    }
+
+    .tr-main,
+    .tr-title {
+        display: inline-block;
+        width: 100%;
+    }
+
+    td {
+        display: inline-block;
+        width: auto;
+    }
+}
