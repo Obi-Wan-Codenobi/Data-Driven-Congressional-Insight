@@ -1,4 +1,4 @@
 
 
-async def get_home_date():
+async def get_home_data():
     return {"detail", "success"}
