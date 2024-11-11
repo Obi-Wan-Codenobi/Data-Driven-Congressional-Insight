@@ -31,3 +31,17 @@ H.R. 991
 H.R. 301
 H.R. 1621
 ```
+
+### Data - folder definitions
+HR (House of representives):
+- EH (Enrolled House)
+- IH (Introduced in House)
+- PCS (Printed Copy of Substitute)
+
+hconres (House Concurrent Resolution):
+- EH (Enrolled House)
+- ENR (Enrolled) - final version after both chambers approve 
+- RDS (Referred to Committee) - sent to a committee for review
+- IH (Introduced in House)
+- RH (Reported in House)
+
