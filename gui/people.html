@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="topic.html">Topic</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="title-head">Congressional Catalog</h1>
+    <div class="search-container"> <input type="text" class="search-bar" placeholder="Search..."> </div>
+
+    <div class="description">
+        <b>table of congressmen and women</b>
+    </div>
+</body>
+<script>
+    if (window.location.pathname === "/") {
+        window.location.href = "/index.html";
+    }
+</script>
+
+</html>
