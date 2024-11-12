@@ -3,7 +3,7 @@ __all__ = ["router"]
 from sys import prefix
 from fastapi import APIRouter
 from .topics import topics_router
-from .query import query_router
+from .search import query_router
 from .politicians import politician_router
 
 router = APIRouter()
