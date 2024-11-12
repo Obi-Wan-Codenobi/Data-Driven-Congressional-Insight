@@ -21,7 +21,9 @@
     </header>
     <h1 class="title-head">Congressional Search</h1>
     <div class="search-container"> <input type="text" class="search-bar" placeholder="Search..."> </div>
-
+    <div id="loading-screen" class="loading-screen">
+        <div class="spinner"></div>
+    </div>
     <div class="button-container">
         <table class="table-main">
             <tr class="tr-title">
@@ -38,36 +40,36 @@
             <tr class="tr-main">
                 <td>
 
-                    <button class="button-form">Rep 1</button>
+                    <button class="button-form" onclick="showLoadingAndRedirect()">Rep 1</button>
                 </td>
                 <td>
-                    <button class="button-form">Rep 2</button>
+                    <button class="button-form" onclick="showLoadingAndRedirect()">Topic 1</button>
                 </td>
                 <td>
-                    <button class="button-form">Rep 3</button>
+                    <button class="button-form" onclick="showLoadingAndRedirect()">118th Congress</button>
                 </td>
             </tr>
             <tr class="tr-main">
                 <td>
 
-                    <button class="button-form">Rep 4</button>
+                    <button class="button-form" onclick="showLoadingAndRedirect()">Rep 2</button>
                 </td>
                 <td>
-                    <button class="button-form">Rep 5</button>
+                    <button class="button-form" onclick="showLoadingAndRedirect()">Topic 2</button>
                 </td>
                 <td>
-                    <button class="button-form">Rep 6</button>
+                    <button class="button-form" onclick="showLoadingAndRedirect()">117th Congress</button>
                 </td>
             </tr>
             <tr class="tr-main">
                 <td>
-                    <button class="button-form">Rep 7</button>
+                    <button class="button-form" onclick="showLoadingAndRedirect()">Rep 3</button>
                 </td>
                 <td>
-                    <button class="button-form">Rep 8</button>
+                    <button class="button-form" onclick="showLoadingAndRedirect()">Topic 3</button>
                 </td>
                 <td>
-                    <button class="button-form">Rep 9</button>
+                    <button class="button-form" onclick="showLoadingAndRedirect()">116th Congress</button>
                 </td>
             </tr>
 
@@ -75,11 +77,8 @@
 
         </table>
     </div>
+    <script src="script.js"></script>
 </body>
-<script>
-    if (window.location.pathname === "/") {
-        window.location.href = "/index.html";
-    }
-</script>
+
 
 </html>
