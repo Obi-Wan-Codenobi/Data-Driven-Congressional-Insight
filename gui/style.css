@@ -239,6 +239,28 @@ td {
     border-radius: 50%;
 }
 
+/*Results Page*/
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.results-table th,
+.results-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.results-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.results-table img {
+    border-radius: 50%;
+}
+
 /* Loading Screen */
 .loading-screen {
     display: none;
