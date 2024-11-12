@@ -19,6 +19,6 @@ def top_ten_documents(document_scores):
     return top_scores
 
 def to_json(document_scores):
-    json  = [{"document": doc.to_dict(), "score": score} for doc, score in document_scores]
+    json  = [{"document": doc.to_dict(), "id": doc.id} for doc, score in document_scores]
     return json
         
