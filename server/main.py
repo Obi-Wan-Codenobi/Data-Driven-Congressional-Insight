@@ -9,6 +9,7 @@ import dotenv
 
 dotenv.load_dotenv()
 STATIC_IMAGE_PATH= os.getenv("STATIC_IMAGE_PATH")
+STATIC_WEB_PATH= os.getenv("STATIC_WEB_PATH")
 
 app = FastAPI()
 app.include_router(router)
@@ -28,3 +29,4 @@ app.add_middleware(
 )
 
 app.mount("/" + STATIC_IMAGE_PATH, StaticFiles(directory=STATIC_IMAGE_PATH), name=STATIC_IMAGE_PATH)
+app.mount("/", StaticFiles(directory=STATIC_WEB_PATH, html = True), name="WEBSITE")
