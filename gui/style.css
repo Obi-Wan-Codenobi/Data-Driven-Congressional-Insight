@@ -172,7 +172,7 @@ td {
     margin: 20px auto;
     width: 100%;
     max-width: 1200px;
-    height: 300px;
+    height: 500px;
     box-sizing: border-box;
     border-collapse: collapse;
     background-color: rgba(255, 255, 255, 0.8);
@@ -188,7 +188,56 @@ td {
 
 }
 
+/*people page*/
+#table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #ddd;
+}
 
+.politicians-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.politicians-table th,
+.politicians-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.politicians-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.politicians-table img {
+    border-radius: 50%;
+}
+
+/*topics Page*/
+.topics-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.topics-table th,
+.topics-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.topics-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.topics-table img {
+    border-radius: 50%;
+}
 
 /* Loading Screen */
 .loading-screen {
