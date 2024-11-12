@@ -8,7 +8,8 @@ from .tftypes import TFTYPES
 #         term_freq - the number of documents that contain a term
 
 class Document:
-    def __init__(self, title, title_length, body_hits, body_length, body):
+    def __init__(self, id, title, title_length, body_hits, body_length, body):
+        self.id = id
         self.title = title
         self.title_length = title_length
         self.body_hits = body_hits
@@ -32,7 +33,9 @@ def get_document_data(file_path):
     total_number_of_docs = 0
     docs_with_term = {}
     
+    id:int =0
     for file in files:
+        id+=1
         total_number_of_docs += 1
         written_title = False
         document = {}
@@ -41,7 +44,9 @@ def get_document_data(file_path):
 
         try:
             with open(file, 'r') as f:
+                body=""
                 for line in f:
+                    body+=line
                     line = line.strip()
                     
                     # Includes words and numbers
@@ -49,7 +54,8 @@ def get_document_data(file_path):
                         document["TITLE"] = line
                         document["TITLE_LENGTH"] = len(line)
                         written_title = True
-                    
+                        continue
+                        
                     # Includes words and numbers
                     words = re.findall(r'\w+', line.lower())
                     for word in words:
@@ -57,10 +63,10 @@ def get_document_data(file_path):
                             body_hits[word] = []  
                         body_hits[word].append(current_index)  # Store the current index
                         current_index += len(word) + 1  # Update index (add 1 for space or punctuation)
-                document["BODY"] = words
+                document["BODY"] = body
                 document["BODY_HITS"] = body_hits
                 document["BODY_LENGTH"] = current_index  
-                documents.append(Document(document["TITLE"], document["TITLE_LENGTH"], document["BODY_HITS"], document["BODY_LENGTH"], document["BODY"]))
+                documents.append(Document(id, document["TITLE"], document["TITLE_LENGTH"], document["BODY_HITS"], document["BODY_LENGTH"], document["BODY"]))
                 
                 
                 # for word in document["TITLE"].lower().split():
