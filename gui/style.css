@@ -108,6 +108,11 @@ body {
 .tr-title {
     background-color: #f4f4f4;
     font-size: 1.2em;
+
+}
+
+.tr-title td {
+    word-wrap: break-word;
 }
 
 .tr-main {
@@ -163,6 +168,24 @@ td {
     td {
         display: inline-block;
         width: auto;
+    }
+
+    .tr-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tr-title td {
+        width: 100%;
+        padding: 10px 0;
+
+    }
+
+    .tr-title h1 {
+        font-size: 16px;
+        margin: 5px 0;
     }
 }
 
