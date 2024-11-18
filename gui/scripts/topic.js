@@ -1,10 +1,11 @@
 // Function to fetch topics data from FastAPI server
 async function fetchTopics() {
     try {
-        const response = await fetch('http://localhost:8000/api/topics/all');  // Ensure the URL matches your endpoint
+        const response = await fetch('http://localhost:8000/api/topics/all');
         const data = await response.json();
-        console.log('Fetched data:', data);  // Log the data to check its structure
+        console.log('Fetched data:', data);
         createTable(data);
+        searchFunct(data);
     } catch (error) {
         console.error('Error fetching data:', error);
     }
@@ -19,6 +20,7 @@ function createTable(data) {
 
     const table = document.createElement('table');
     table.classList.add('topics-table');
+    table.id = 'topics-table';
 
     const headerRow = document.createElement('tr');
     const headers = ['Image', 'Title'];
@@ -51,5 +53,26 @@ function createTable(data) {
     document.getElementById('table-container').appendChild(table);
 }
 
-// Call the function when the DOM content is loaded
+//Function filters the table using the search-bar
+function searchFunct(data) {
+    const bar = document.getElementById('search-bar');
+    bar.addEventListener('input', event => {
+        const query = event.target.value.toLowerCase();
+        const table = document.getElementById('topics-table');
+        const rows = table.querySelectorAll('tr:not(:first-child)');
+
+        rows.forEach((row, index) => {
+            const titleCell = row.querySelectorAll('td')[1];
+            if (titleCell) {
+                const title = titleCell.textContent.toLowerCase();
+                if (title.includes(query)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            }
+        });
+    });
+}
+
 document.addEventListener('DOMContentLoaded', fetchTopics);
