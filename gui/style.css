@@ -190,7 +190,7 @@ td {
 }
 
 /*About Page*/
-.description {
+/*.description {
     border: 2px solid #ddd;
     margin: 20px auto;
     width: 100%;
@@ -204,7 +204,37 @@ td {
     border-radius: 15px;
     text-align: center;
 
+}*/
+.description {
+    font-family: 'Roboto', sans-serif;
+    color: #4A4A4A;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #ddd;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 1200px;
 }
+
+.description h1 {
+    color: #333333;
+    font-size: 1.8em;
+    border-bottom: 2px solid rgb(176, 196, 222);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.description h2 {
+    color: #616161;
+    font-size: 1.4em;
+    margin-top: 15px;
+}
+
+
+
+
+
 
 .about {
     text-align: center;
