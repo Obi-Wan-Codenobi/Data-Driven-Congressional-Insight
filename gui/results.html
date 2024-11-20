@@ -81,7 +81,10 @@
                 const docCell = document.createElement('td');
                 docCell.innerHTML = data.html_documents[doc.id];
                 row.appendChild(docCell);
-                row.addEventListener('click', () => showPanel("118HR1346"));
+                row.addEventListener('click', () => {
+                    const billId = doc.title.slice(0, 11).replace(/\s+/g, '');
+                    showPanel(billId)
+                });
                 table.appendChild(row);
             });
 
@@ -141,7 +144,7 @@
                     });
                 });
             } else {
-                peopleList.textContent = "No data available for this bill.";
+                peopleList.textContent = "No voting data available for this bill.";
             }
         }
 
