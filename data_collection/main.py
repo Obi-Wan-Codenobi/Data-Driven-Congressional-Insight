@@ -29,9 +29,7 @@ def get_bill_documents(root_path, tmp_path):
             if os.path.isdir(bills_path):
                 directories.append(bills_path)
 
-    print(directories)
     bills = load_and_merge_all_bills(directories)
-    print('WRITING')
     load_xml_to_text(bills, tmp_path)
     return bills
 
@@ -44,7 +42,6 @@ def get_vote_documents(root_path):
             if os.path.isdir(bills_path):
                 directories.append(bills_path)
 
-    print(directories)
     votes = load_and_merge_all_votes(directories)
     return votes
 
