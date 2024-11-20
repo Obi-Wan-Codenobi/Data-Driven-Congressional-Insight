@@ -48,6 +48,25 @@ def get_vote_documents(root_path):
     return votes
 
 # For testing
+def test_ranking(scored_docs, benchmark):
+    print("\nTesting Rank Results:")
+    for bench in benchmark:
+        test_title = bench["title"].strip()
+        expected_rank = bench["rank"]
+        # Find the document in the scored_documents
+        bm25_result = next(
+            (i + 1 for i, (doc, _) in enumerate(scored_docs) if doc.title == test_title), None
+        )
+
+        if bm25_result:
+            print(f"Title: {test_title}, Expected Rank: {expected_rank}, BM25 Rank: {bm25_result}")
+        else:
+            print(f"Title: {bench['title']} not found in scored documents!")
+        
+
+
+
+
 def main():
     
     arg = input("Convert xml data to txt? Type: '1' (yes) or '0'(no)")
@@ -68,14 +87,28 @@ def main():
         
         # test query
         document_data = get_document_data("./tmp/")
-        user_query = input("What topic would you like to reference? ")
+        user_query = input("What topic would you like to reference? [To run test, Type covid]   ")
         scored_documents = executeBM25(user_query, document_data)
         top_x = 5  
         for i in range(min(top_x, len(scored_documents))):
             doc, score = scored_documents[i]
             print(f"Document: {doc.title}, Score: {score}")
         
-        
+        #Testing Ranking (usage on a covid query)
+        benchmark = [
+            {"title":"118 HR 117 IH: To prohibit any entity that receives Federal funds from the COVID relief packages from mandating employees receive a COVID–19 vaccine, and for other purposes.", "rank":1},
+            {"title":"118 HR 1346 IH: COVID–19 Origin Act of 2023", "rank":2},
+            {"title":"118 HR 1376 IH: COVID–19 Origin Act of 2023", "rank":3},
+            {"title":"118 HR 301 IH: Unmasking the Origins of COVID–19 Act", "rank":4},
+            {"title":"118 HR 991 IH: COVID–19 Vaccination Non-Discrimination Act", "rank":5},
+            {"title":"118 HR 348 IH: Transparency in COVID–19 Expenditures Act", "rank":6},
+            {"title":"118 HR 1621 IH: COVID–19 National Memorial Act", "rank":7},
+            {"title":"118 HR 4761 IH: SAFE CAR Act", "rank":8},
+            {"title":"107 HR 895 IH: Combating Organized Retail Crime Act of 2023", "rank":9},
+            {"title":"118 HR 4899 IH: Housing Financial Literacy Act of 2023", "rank":10},
+        ]
+        if(user_query == "covid"):
+            test_ranking(scored_documents, benchmark)
         
         
         sys.exit()
