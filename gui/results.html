@@ -25,6 +25,30 @@
         <div id="table-container"></div>
     </div>
     <script>
+
+        const dummyVotes = {
+            "118HR1346": {
+                "bill": "118HR1346",
+                "file_path": "/data/votes/117HR1234/data.json",
+                "date": "2024-01-15",
+                "casted_votes": {
+                    "Cruz": "Aye",
+                    "Vance": "No",
+                    "Porter": "Not Voting"
+                }
+            },
+            "118SR5678": {
+                "bill": "118SR5678",
+                "file_path": "/data/votes/118SR5678/data.json",
+                "date": "2024-05-10",
+                "casted_votes": {
+                    "Cruz": "Aye",
+                    "Vance": "No",
+                    "Porter": "Aye"
+                }
+            }
+        };
+
         function displayResults() {
             const data = JSON.parse(localStorage.getItem('searchResults'));
             const tableContainer = document.getElementById('table-container');
@@ -57,7 +81,7 @@
                 const docCell = document.createElement('td');
                 docCell.innerHTML = data.html_documents[doc.id];
                 row.appendChild(docCell);
-
+                row.addEventListener('click', () => showPanel("118HR1346"));
                 table.appendChild(row);
             });
 
@@ -66,7 +90,84 @@
 
         document.addEventListener('DOMContentLoaded', displayResults);
 
+
+
+        function showPanel(billId) {
+            const panel = document.getElementById("slider");
+            panel.classList.add("active");
+
+            const panelTitle = document.getElementById("sliderTitle");
+            panelTitle.textContent = `Votes for Bill ${billId}`;
+
+            const peopleList = document.getElementById("peopleList");
+            peopleList.innerHTML = "";
+
+
+            const billData = dummyVotes[billId];
+            if (billData) {
+                const votes = billData.casted_votes;
+
+
+                for (const [person, vote] of Object.entries(votes)) {
+                    const li = document.createElement("li");
+                    li.setAttribute('data-name', person.toLowerCase());
+                    li.textContent = `${person}: ${vote}`;
+                    if (vote === "Aye") {
+                        li.style.backgroundColor = "green";
+                        li.style.color = "black";
+                    }
+                    else if (vote == "No") {
+                        li.style.backgroundColor = "red";
+                        li.style.color = "black";
+                    }
+                    else {
+                        li.style.backgroundColor = "black";
+                        li.style.color = "black";
+                    }
+                    peopleList.appendChild(li);
+                }
+                const searchBar = document.getElementById('search-bar');
+                searchBar.addEventListener('input', (event) => {
+                    const query = event.target.value.toLowerCase();
+                    const listItems = peopleList.querySelectorAll('li');
+
+                    listItems.forEach(item => {
+                        const name = item.getAttribute('data-name');
+                        if (name.includes(query)) {
+                            item.style.display = '';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            } else {
+                peopleList.textContent = "No data available for this bill.";
+            }
+        }
+
+
+        function hidePanel() {
+            const panel = document.getElementById("slider");
+            panel.classList.remove("active");
+        }
+
     </script>
+    <div id="slider" class="slide-panel">
+        <button class="button-form" onClick="hidePanel()">x</button>
+
+        <h2 id="sliderTitle">Votes</h2>
+        <div class="search-container"> <input type="text" id="search-bar" class="search-bar"
+                placeholder="Search by Name..."> </div>
+        <ul id="peopleList"></ul>
+
+        <div id="legend" class="legend">
+            <p><span class="aye-color"></span> Aye</p>
+            <p><span class="no-color"></span> No</p>
+            <p><span class="abstain-color"></span> Abstain</p>
+        </div>
+
+    </div>
+
 </body>
 
 
