@@ -46,13 +46,40 @@ class BM25:
             total_body_length += body_length
             count += 1
 
-            pagerank_score = 1.0 # NEED TO FIND A VALUE TO PUT HERE TO MEASURE
+            pagerank_score = self.get_pagerank_score(doc)
             self.pagerank_scores[index] = pagerank_score
 
         self.avg_lengths[TFTYPES[0]] = total_title_length / count if count > 0 else 0.0
         self.avg_lengths[TFTYPES[1]] = total_body_length / count if count > 0 else 0.0
     
+    def get_pagerank_score(self, doc):
+        path = doc.file_path
+        file_type_regex = re.search(r'tmp\/BILLS-\d+([a-zA-Z]+).*?.txt', path)
+        if file_type_regex is None:
+            return 0.0
+        
+        last_group_index = file_type_regex.lastindex
+        pagerank = file_type_regex.group(last_group_index)
+        
+        if pagerank =="s":
+            return 8.0
+        elif pagerank=="hr":
+            return 7.0
+        elif pagerank=="sres":
+            return 6.0
+        elif pagerank=="sconres":
+            return 5.0
+        elif pagerank=="sjres":
+            return 4.0
+        elif pagerank=="hres":
+            return 3.0
+        elif pagerank=="hconres":
+            return 2.0
+        elif pagerank=="hjres":
+            return 1.0
 
+        return 0.0
+        
 
     def get_net_score(self, tfs, query, tf_query, doc):
         score = 0.0

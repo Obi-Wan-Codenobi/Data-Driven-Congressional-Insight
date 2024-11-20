@@ -118,6 +118,7 @@ def get_document_data(file_path):
                     
         except IOError as e:
             print(f"Error reading file {file}: {e}")
-            
+    
+    print(f"{id} Documents loaded...")
     return documents, docs_with_term, total_number_of_docs
                     
