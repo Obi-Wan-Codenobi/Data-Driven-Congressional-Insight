@@ -12,7 +12,7 @@ class BM25:
         self.query = query
         self.docs_with_term = docs_with_term
 
-        self.title_weight = 0.50905
+        self.title_weight = 0.70905
         self.body_weight = 0.555551
         self.b25title = 0.46
         self.b25body = 0.55
