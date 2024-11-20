@@ -40,10 +40,12 @@ function createTable(data) {
 
         const imgCell = document.createElement('td');
         const img = document.createElement('img');
+
         img.src = person.image_url;
         img.alt = person.name;
         img.width = 50;
         img.height = 50;
+
         imgCell.appendChild(img);
         row.appendChild(imgCell);
 

@@ -25,7 +25,7 @@ function createTable(data) {
     table.id = 'topics-table';
 
     const headerRow = document.createElement('tr');
-    const headers = ['Image', 'Title'];
+    const headers = ['Image', 'Topic'];
     headers.forEach(headerText => {
         const header = document.createElement('th');
         header.textContent = headerText;
