@@ -21,7 +21,7 @@
     </header>
     <h1 class="title-head">Congressional Search</h1>
     <div class="search-container">
-        <form onsubmit="searchDocuments(event)"> <input type="text" class="search-bar"
+        <form onsubmit="searchDocuments(event), showLoadingAndRedirect()"> <input type="text" class="search-bar"
                 placeholder="Enter Search Topic..."> <button class="button-form" type="submit">Search</button> </form>
     </div>
     <div id="loading-screen" class="loading-screen">
@@ -36,51 +36,55 @@
                 <td>
                     <h1>Topic</h1>
                 </td>
-                <td>
-                    <h1>Congress</h1>
-                </td>
+
             </tr>
             <tr class="tr-main">
                 <td>
 
-                    <button class="button-form" onclick="showLoadingAndRedirect()">Rep 1</button>
+                    <button class="button-form"
+                        onclick="showLoadingAndRedirect(), searchDocuments(event, 'Ted Cruz', 'people')">Ted
+                        Cruz</button>
                 </td>
                 <td>
-                    <button class="button-form" onclick="showLoadingAndRedirect()">Topic 1</button>
+                    <button class="button-form"
+                        onclick="showLoadingAndRedirect(), searchDocuments(event, 'COVID 19', 'topic')">Covid-19
+                    </button>
                 </td>
-                <td>
-                    <button class="button-form" onclick="showLoadingAndRedirect()">118th Congress</button>
-                </td>
+
             </tr>
             <tr class="tr-main">
                 <td>
 
-                    <button class="button-form" onclick="showLoadingAndRedirect()">Rep 2</button>
+                    <button class="button-form"
+                        onclick="showLoadingAndRedirect(), searchDocuments(event, 'Jon Ossoff','people')">Jon
+                        Ossoff</button>
                 </td>
                 <td>
-                    <button class="button-form" onclick="showLoadingAndRedirect()">Topic 2</button>
+                    <button class="button-form"
+                        onclick="showLoadingAndRedirect(), searchDocuments(event, 'Trade Policy', 'topic')">Trade
+                        Policy</button>
                 </td>
-                <td>
-                    <button class="button-form" onclick="showLoadingAndRedirect()">117th Congress</button>
-                </td>
+
             </tr>
             <tr class="tr-main">
                 <td>
-                    <button class="button-form" onclick="showLoadingAndRedirect()">Rep 3</button>
+                    <button class="button-form"
+                        onclick="showLoadingAndRedirect(), searchDocuments(event, 'Kim Schrier', 'people')">Kim
+                        Schrier</button>
                 </td>
                 <td>
-                    <button class="button-form" onclick="showLoadingAndRedirect()">Topic 3</button>
+                    <button class="button-form"
+                        onclick="showLoadingAndRedirect(), searchDocuments(event, 'Energy Policy', 'topic')">Energy
+                        Policy</button>
                 </td>
-                <td>
-                    <button class="button-form" onclick="showLoadingAndRedirect()">116th Congress</button>
-                </td>
+
             </tr>
 
 
 
         </table>
     </div>
-    <script src="scripts/results.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 
 

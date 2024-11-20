@@ -1,7 +1,13 @@
 
-async function searchDocuments(event) {
+export async function searchDocuments(event, value, type) {
     event.preventDefault();
-    const input = document.querySelector('.search-bar').value;
+    let input;
+    if (value && type) {
+        input = value;
+    }
+    else {
+        input = document.querySelector('.search-bar').value
+    }
 
     if (input.trim() === '') {
         console.error('Search input is empty.');
@@ -27,7 +33,7 @@ async function searchDocuments(event) {
     }
 }
 
-function displayResults() {
+export function displayResults() {
     const data = JSON.parse(localStorage.getItem('searchResults'));
     const tableContainer = document.getElementById('table-container');
     tableContainer.innerHTML = '';
@@ -60,13 +66,15 @@ function displayResults() {
         docCell.innerHTML = data.html_documents[doc.id];
         row.appendChild(docCell);
 
+
+
         table.appendChild(row);
     });
 
     tableContainer.appendChild(table);
 }
 
-function showLoadingAndRedirect() {
+export function showLoadingAndRedirect() {
     document.getElementById('loading-screen').style.display = 'flex';
     setTimeout(() => { window.location.href = 'results.html'; }, 2000);
 }

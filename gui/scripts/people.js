@@ -1,6 +1,8 @@
+import { searchDocuments, showLoadingAndRedirect } from './results.js'
 
 //Function to call the other funcitons when loaded
 async function fetchPoliticians() {
+    showLoading();
     try {
         const response = await fetch('http://localhost:8000/api/politician/all');
         const data = await response.json();
@@ -9,6 +11,8 @@ async function fetchPoliticians() {
         searchFunct(data);
     } catch (error) {
         console.error('Error fetching data:', error);
+    } finally {
+        hideLoading();
     }
 }
 
@@ -36,10 +40,12 @@ function createTable(data) {
 
         const imgCell = document.createElement('td');
         const img = document.createElement('img');
+
         img.src = person.image_url;
         img.alt = person.name;
         img.width = 50;
         img.height = 50;
+
         imgCell.appendChild(img);
         row.appendChild(imgCell);
 
@@ -51,10 +57,21 @@ function createTable(data) {
         partyCell.textContent = person.party;
         row.appendChild(partyCell);
 
+        row.addEventListener('click', () => {
+            handleRowClick(person);
+        });
         table.appendChild(row);
     });
 
     document.getElementById('table-container').appendChild(table);
+}
+
+
+//handling clicks
+function handleRowClick(person) {
+    const event = new Event('click');
+    searchDocuments(event, person.name, 'people');
+    showLoadingAndRedirect();
 }
 
 //Function to filter the polititian table
@@ -79,3 +96,10 @@ function searchFunct(data) {
     });
 }
 document.addEventListener('DOMContentLoaded', fetchPoliticians);
+
+function showLoading() {
+    document.getElementById('loading-screen').style.display = 'flex';
+}
+function hideLoading() {
+    document.getElementById('loading-screen').style.display = 'none';
+}
