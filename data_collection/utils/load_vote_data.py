@@ -9,8 +9,8 @@ from collections import defaultdict
 all_votes = {bill_name : Votes -> casted_votes{voter_id : vote_type} }
 """
 class Votes:
-    def __init__(self, bill: str | None, file_path, date: str | None, casted_votes):
-        self.bill = bill
+    def __init__(self, vote_name: str | None, file_path, date: str | None, casted_votes):
+        self.vote_name = vote_name
         self.file_path = file_path
         self.date = date
         self.casted_votes: dict[str:str] = casted_votes
@@ -74,9 +74,9 @@ class Load_votes:
                         with self.errors_lock:
                             self.errors[vote_name] = error_msg
                         
-        this_vote = Votes(bill, path, date, vote_count )
+        this_vote = Votes(vote_name, path, date, vote_count )
         with self.lock:
-            self.all_votes[vote_name] = this_vote
+            self.all_votes[bill] = this_vote
 
     def get_directories(self, dir):
         directories = []

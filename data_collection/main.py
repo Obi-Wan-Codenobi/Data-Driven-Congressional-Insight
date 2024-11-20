@@ -20,7 +20,7 @@ def executeBM25(input:str, document_data):
     scored_documents.sort(key=lambda x: x[1], reverse=True)
     return scored_documents
 
-def get_bill_documents(root_path):
+def get_bill_documents(root_path, tmp_path):
     directories = []
     for item in os.listdir(root_path):
         item_path = os.path.join(root_path, item)
@@ -31,7 +31,8 @@ def get_bill_documents(root_path):
 
     print(directories)
     bills = load_and_merge_all_bills(directories)
-        
+    print('WRITING')
+    load_xml_to_text(bills, tmp_path)
     return bills
 
 def get_vote_documents(root_path):
