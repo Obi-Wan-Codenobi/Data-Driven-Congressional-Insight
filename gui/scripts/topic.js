@@ -1,3 +1,5 @@
+import { searchDocuments, showLoadingAndRedirect } from "./results.js";
+
 // Function to fetch topics data from FastAPI server
 async function fetchTopics() {
     try {
@@ -47,10 +49,21 @@ function createTable(data) {
         titleCell.textContent = topic.title;
         row.appendChild(titleCell);
 
+        row.addEventListener('click', () => {
+            handleRowClick(topic);
+        })
         table.appendChild(row);
     });
 
     document.getElementById('table-container').appendChild(table);
+}
+
+
+//handling clicks
+function handleRowClick(topic) {
+    const event = new Event('click');
+    searchDocuments(event, topic.title, 'topic');
+    showLoadingAndRedirect();
 }
 
 //Function filters the table using the search-bar

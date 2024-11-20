@@ -1,5 +1,5 @@
 
-async function searchDocuments(event, value, type) {
+export async function searchDocuments(event, value, type) {
     event.preventDefault();
     let input;
     if (value && type) {
@@ -33,7 +33,7 @@ async function searchDocuments(event, value, type) {
     }
 }
 
-function displayResults() {
+export function displayResults() {
     const data = JSON.parse(localStorage.getItem('searchResults'));
     const tableContainer = document.getElementById('table-container');
     tableContainer.innerHTML = '';
@@ -66,13 +66,15 @@ function displayResults() {
         docCell.innerHTML = data.html_documents[doc.id];
         row.appendChild(docCell);
 
+
+
         table.appendChild(row);
     });
 
     tableContainer.appendChild(table);
 }
 
-function showLoadingAndRedirect() {
+export function showLoadingAndRedirect() {
     document.getElementById('loading-screen').style.display = 'flex';
     setTimeout(() => { window.location.href = 'results.html'; }, 2000);
 }
