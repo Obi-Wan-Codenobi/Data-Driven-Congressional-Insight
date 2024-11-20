@@ -34,7 +34,7 @@
                 "casted_votes": {
                     "Cruz": "Aye",
                     "Vance": "No",
-                    "Porter": "Not Voting"
+                    "Porter": "Abstain"
                 }
             },
             "118SR5678": {
@@ -81,7 +81,10 @@
                 const docCell = document.createElement('td');
                 docCell.innerHTML = data.html_documents[doc.id];
                 row.appendChild(docCell);
-                row.addEventListener('click', () => showPanel("118HR1346"));
+                row.addEventListener('click', () => {
+                    const billId = doc.title.slice(0, 11).replace(/\s+/g, '');
+                    showPanel(billId)
+                });
                 table.appendChild(row);
             });
 
@@ -114,15 +117,15 @@
                     li.textContent = `${person}: ${vote}`;
                     if (vote === "Aye") {
                         li.style.backgroundColor = "green";
-                        li.style.color = "black";
+                        li.style.color = "white";
                     }
                     else if (vote == "No") {
                         li.style.backgroundColor = "red";
-                        li.style.color = "black";
+                        li.style.color = "white";
                     }
                     else {
-                        li.style.backgroundColor = "black";
-                        li.style.color = "black";
+                        li.style.backgroundColor = "grey";
+                        li.style.color = "white";
                     }
                     peopleList.appendChild(li);
                 }
@@ -141,7 +144,7 @@
                     });
                 });
             } else {
-                peopleList.textContent = "No data available for this bill.";
+                peopleList.textContent = "No voting data available for this bill.";
             }
         }
 
