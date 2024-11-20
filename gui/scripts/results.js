@@ -1,7 +1,13 @@
 
-async function searchDocuments(event) {
+async function searchDocuments(event, value, type) {
     event.preventDefault();
-    const input = document.querySelector('.search-bar').value;
+    let input;
+    if (value && type) {
+        input = value;
+    }
+    else {
+        input = document.querySelector('.search-bar').value
+    }
 
     if (input.trim() === '') {
         console.error('Search input is empty.');
