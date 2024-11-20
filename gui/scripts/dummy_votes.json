@@ -1,0 +1,22 @@
+{
+    "118HR1346": {
+        "bill": "118HR1346",
+        "file_path": "/data/votes/117HR1234/data.json",
+        "date": "2024-01-15",
+        "casted_votes": {
+            "Cruz": "Aye",
+            "Vance": "No",
+            "Porter": "Not Voting"
+        }
+    },
+    "118SR5678": {
+        "bill": "118SR5678",
+        "file_path": "/data/votes/118SR5678/data.json",
+        "date": "2024-05-10",
+        "casted_votes": {
+            "Cruz": "Aye",
+            "Vance": "No",
+            "Porter": "Aye"
+        }
+    }
+}
