@@ -2,7 +2,6 @@ from config.bm25 import document_id_to_vote, query_bm25, top_ten_documents, to_j
 
 
 document_vote_data = document_id_to_vote()
-print(document_vote_data)
 
 def html_page(document):
     return f"""
@@ -16,12 +15,9 @@ def get_votes(doc_id):
     try:
         key = document_vote_data.get(doc_id)
         if not key:
-            print(key)
             return "None"
         
         document_vote = votes.get(key, "None")
-        if document_vote != "None":
-            print(document_vote)
         return document_vote
     except Exception as e:
         print(f"Could not find vote data for document {doc_id}, Error: {e}")
