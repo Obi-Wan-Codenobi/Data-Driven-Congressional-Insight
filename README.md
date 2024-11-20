@@ -31,7 +31,7 @@ cd server && make
 
   
 ## Votes
-- ```Viewed throug the Results Tab```
+- ```Viewed through the Results Tab```
     All Representatives will be displayed with a color association
 - ```Colors```
     Green, Red, Grey, Black
