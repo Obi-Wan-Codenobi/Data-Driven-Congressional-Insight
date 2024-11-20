@@ -373,6 +373,41 @@ td {
     border-radius: 5px;
 }
 
+.legend {
+    margin-top: auto;
+    /* Pushes the legend to the bottom of the panel */
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.legend p {
+    margin: 5px 0;
+}
+
+.legend .aye-color {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background-color: green;
+    margin-right: 10px;
+}
+
+.legend .no-color {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background-color: red;
+    margin-right: 10px;
+}
+
+.legend .abstain-color {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background-color: black;
+    margin-right: 10px;
+}
 
 /* Loading Screen */
 .loading-screen {
