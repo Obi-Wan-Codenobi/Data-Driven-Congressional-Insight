@@ -1,8 +1,8 @@
 import os
 import re
 from typing import Dict, List
-
-from data_collection.utils.load_bills_data import Bill_file
+import xml.etree.ElementTree as ET
+from utils.load_bills_data import Bill_file
 from .tftypes import TFTYPES
 # Process all files in a given directory, extracting the following information for each file:
 # Return: documents{TITLE, TITLE_LENGTH, BODY_COUNT, BODY_LENGTH}
@@ -10,13 +10,14 @@ from .tftypes import TFTYPES
 #         term_freq - the number of documents that contain a term
 
 class Document:
-    def __init__(self, id, title, title_length, body_hits, body_length, body):
+    def __init__(self, id, title, title_length, body_hits, body_length, body, file_path):
         self.id = id
         self.title = title
         self.title_length = title_length
         self.body_hits = body_hits
         self.body_length = body_length
         self.body = body
+        self.file_path = file_path
     
     def to_dict(self):
         return {
@@ -30,25 +31,38 @@ def xml_to_text(xml_file, output_file):
     with open(output_file, "w") as file:
         def extract_text(element, indent=0):
             if element.text:
-                file.write(" " * indent + element.text.strip() + "\n")
+                file.write(element.text.strip() + "\n")
 
             for child in element:
                 extract_text(child, indent + 2)
         extract_text(root)
         
-def load_xml_to_text(bills : Dict[str:Bill_file], store_text_path):
+def load_xml_to_text(bills : Dict[str,Bill_file], store_text_path):
+    directory = os.path.dirname(store_text_path)
+    if not os.path.exists(directory):
+        os.makedirs(directory, exist_ok=True)
+    
+    skipped = 0
+    writtten = 0
     for bill_name, bill in bills.items():
         file_name = os.path.basename(bill.file_path)
         text_file = os.path.splitext(file_name)[0] + '.txt'
-        if not os.path.exists(store_text_path + text_file):
-            xml_to_text(bill.file_path, store_text_path + text_file)
+        text_file_path = store_text_path + text_file
+        if not os.path.exists(text_file_path):
+            xml_to_text(bill.file_path, text_file_path)
+            writtten+=1
+        else:
+            skipped+=1
+            
+        bill.file_path = text_file_path
+    print(f"{writtten} text files written.\n{skipped} text files found")
+
         
 
 
 def get_document_data(file_path):
     files = []
     for root, dirs, filenames in os.walk(file_path):
-        print(f"Found file: {filenames}")
         for filename in filenames:
             full_path = os.path.join(root, filename)
             files.append(full_path)
@@ -90,7 +104,7 @@ def get_document_data(file_path):
                 document["BODY"] = body
                 document["BODY_HITS"] = body_hits
                 document["BODY_LENGTH"] = current_index  
-                documents.append(Document(id, document["TITLE"], document["TITLE_LENGTH"], document["BODY_HITS"], document["BODY_LENGTH"], document["BODY"]))
+                documents.append(Document(id, document["TITLE"], document["TITLE_LENGTH"], document["BODY_HITS"], document["BODY_LENGTH"], document["BODY"], file))
                 
                 
                 # for word in document["TITLE"].lower().split():
