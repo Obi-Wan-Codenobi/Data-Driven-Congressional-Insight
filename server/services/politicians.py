@@ -22,12 +22,9 @@ async def get_all_politicians():
     
     for json in responses:
         if json:
-            # for member in json["members"]:
-            #     result.extend(member)
             for member in json.get("members", None):
-                print(json)
                 result.append(person_card_data(member))
-            #result.extend(json["members"])
+
     return result
     
 def person_card_data(json_input):
