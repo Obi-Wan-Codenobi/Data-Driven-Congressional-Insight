@@ -81,10 +81,11 @@
                 const docCell = document.createElement('td');
                 docCell.innerHTML = data.html_documents[doc.id];
                 row.appendChild(docCell);
+                /*
                 row.addEventListener('click', () => {
                     const billId = doc.title.slice(0, 11).replace(/\s+/g, '');
                     showPanel(billId)
-                });
+                });*/
                 table.appendChild(row);
             });
 
@@ -94,7 +95,7 @@
         document.addEventListener('DOMContentLoaded', displayResults);
 
 
-
+        /*
         function showPanel(billId) {
             const panel = document.getElementById("slider");
             panel.classList.add("active");
@@ -152,10 +153,10 @@
         function hidePanel() {
             const panel = document.getElementById("slider");
             panel.classList.remove("active");
-        }
+        }*/
 
     </script>
-    <div id="slider" class="slide-panel">
+    <!--<div id="slider" class="slide-panel">
         <button class="button-form" onClick="hidePanel()">x</button>
 
         <h2 id="sliderTitle">Votes</h2>
@@ -169,7 +170,7 @@
             <p><span class="abstain-color"></span> Abstain</p>
         </div>
 
-    </div>
+    </div>-->
 
 </body>
 
