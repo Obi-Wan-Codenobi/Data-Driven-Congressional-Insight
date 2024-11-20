@@ -1,6 +1,8 @@
 import os
 import re
-from typing import List
+from typing import Dict, List
+
+from data_collection.utils.load_bills_data import Bill_file
 from .tftypes import TFTYPES
 # Process all files in a given directory, extracting the following information for each file:
 # Return: documents{TITLE, TITLE_LENGTH, BODY_COUNT, BODY_LENGTH}
@@ -20,6 +22,28 @@ class Document:
         return {
             "title": self.title
         }
+
+
+def xml_to_text(xml_file, output_file):
+    tree = ET.parse(xml_file)
+    root = tree.getroot()
+    with open(output_file, "w") as file:
+        def extract_text(element, indent=0):
+            if element.text:
+                file.write(" " * indent + element.text.strip() + "\n")
+
+            for child in element:
+                extract_text(child, indent + 2)
+        extract_text(root)
+        
+def load_xml_to_text(bills : Dict[str:Bill_file], store_text_path):
+    for bill_name, bill in bills.items():
+        file_name = os.path.basename(bill.file_path)
+        text_file = os.path.splitext(file_name)[0] + '.txt'
+        if not os.path.exists(store_text_path + text_file):
+            xml_to_text(bill.file_path, store_text_path + text_file)
+        
+
 
 def get_document_data(file_path):
     files = []
