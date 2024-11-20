@@ -4,7 +4,7 @@
   
 # How to run
 ```bash
-cd data_collection && make
+cd server && make
 ```
 
 # Process of ingesting data:
@@ -14,23 +14,30 @@ cd data_collection && make
 4. Perform boolean search on whether the candidate voted against or for it
 
 
+# Final Release
+
 ## Testing Queries:
 - ```District of Columbia```
-    Most relevant: District of Columbia Zoning Commission Home Rule Act
+    Most Relevant: District of Columbia Zoning Commission Home Rule Act
 - ```COVID-19```
-    Most relevant: To prohibit any requirement that a member of the Armed Forces receive a vaccination against COVID-19
+    Most Relevant: To prohibit any requirement that a member of the Armed Forces receive a vaccination against COVID-19
+### Queries from People Tab
+- ```Grijalva, Raul```
+    Most Relevant: To authorize the President to award the Medal of Honor to Joseph M. Perez
+- ```Porter, Katie```
+    Most Relevant: Unhoused VOTE Act
+- ```Lesko, Debie```
+    Most Relevant: Protecting Our Kids Act
+
   
-### Covid related files
-```
-Covid related files:
-H.R. 1346
-H.R. 1376
-H.R. 117
-H.R. 348
-H.R. 991
-H.R. 301
-H.R. 1621
-```
+## Votes
+- ```Viewed throug the Results Tab```
+    All Representatives will be displayed with a color association
+- ```Colors```
+    Green, Red, Grey, Black
+- ```Meaning```
+    Yay, Nay, Abstained, Not Available
+
 
 ### Data - folder definitions
 HR (House of representives):
