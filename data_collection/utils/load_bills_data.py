@@ -78,7 +78,7 @@ class Load_bills:
         title = None
         date = None
         try:
-            bill_name_regex = re.search(r"/bills/(s|hr)/(.*?)/xml/(.*?)(\d+[a-zA-Z]\d+).*?.xml", str(path))
+            bill_name_regex = re.search(r"/bills/(s|hr|hres|sres|sjres|sconres|hconres|hjres|)/(.*?)/xml/(.*?)(\d+[a-zA-Z]\d+).*?.xml", str(path))
             if not bill_name_regex:
                 bill_name_regex = re.search(r"xml/(.*?).xml", str(path))
             if bill_name_regex is None:
