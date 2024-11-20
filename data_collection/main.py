@@ -74,15 +74,23 @@ def main():
     if arg:
         #convert data
         path = "./../data/congres-repo/data"
-        bills = get_bill_documents(path)
+        tmp_path = "./tmp/"
+        bills = get_bill_documents(path, tmp_path)
         
         votes = get_vote_documents(path)
 
-        bills_keys = set(bills.keys()) if bills else set()
-        #votes_keys = set(votes.keys()) if votes else set()
+        # bills_keys = set(bills.keys()) if bills else set()
+        # print(bills_keys)
+        # print("\n\n\n")
+        # votes_keys = set(votes.keys()) if votes else set()
+        # print(votes_keys)
+        # print("\n\n\n")
 
-        #common_keys = bills_keys & votes_keys
-        #print(f"Intersected keys: {len(common_keys)}")
+        # common_keys = bills_keys & votes_keys
+        # print(common_keys)
+        # print(f"Intersected keys: {len(common_keys)}")
+        # sys.exit()
+        
         print('WRITING')
         load_xml_to_text(bills, "./tmp/")
         
